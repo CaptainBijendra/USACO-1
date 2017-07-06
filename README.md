@@ -1,4 +1,4 @@
-#USACO Training
+# USACO Training
 
 These are my solutions to USACO Training.
 
