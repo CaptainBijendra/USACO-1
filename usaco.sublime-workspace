@@ -47,7 +47,7 @@
 			"file": "Chapter1/Section1.2/transform/transform.cpp",
 			"settings":
 			{
-				"buffer_size": 762,
+				"buffer_size": 961,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -239,15 +239,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 762,
+						"buffer_size": 961,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								286,
-								286
+								762,
+								762
 							]
 						],
 						"settings":
@@ -256,7 +256,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 183.0,
+						"translation.y": 1071.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
