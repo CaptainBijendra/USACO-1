@@ -4,6 +4,14 @@
 		"selected_items":
 		[
 			[
+				"I",
+				"INT_MAX"
+			],
+			[
+				"bo",
+				"Board"
+			],
+			[
 				"n",
 				"n"
 			],
@@ -44,11 +52,19 @@
 	"buffers":
 	[
 		{
-			"file": "Chapter1/Section1.2/transform/transform.cpp",
+			"file": "Chapter1/Section1.2/dualpal/dualpal.cpp",
 			"settings":
 			{
-				"buffer_size": 961,
+				"buffer_size": 928,
 				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "Chapter1/Section1.2/dualpal/dualpal.out",
+			"settings":
+			{
+				"buffer_size": 9,
 				"line_ending": "Unix"
 			}
 		}
@@ -104,10 +120,16 @@
 		"/Users/apple/USACO",
 		"/Users/apple/USACO/Chapter1",
 		"/Users/apple/USACO/Chapter1/Section1.2",
-		"/Users/apple/USACO/Chapter1/Section1.2/transform"
+		"/Users/apple/USACO/Chapter1/Section1.2/dualpal"
 	],
 	"file_history":
 	[
+		"/Users/apple/USACO/Chapter1/Section1.2/palsquare/palsquare.cpp",
+		"/Users/apple/USACO/Chapter1/Section1.2/palsquare/palsquare.out",
+		"/Users/apple/USACO/Chapter1/Section1.2/namenum/namenum.cpp",
+		"/Users/apple/USACO/Chapter1/Section1.2/transform/transform.cpp",
+		"/Users/apple/USACO/Chapter1/Section1.2/transform/transform_2.cpp",
+		"/Users/apple/USACO/Chapter1/Section1.2/transform/transform.out",
 		"/Users/apple/USACO/Chapter1/transform/transform.cpp",
 		"/Users/apple/USACO/Chapter1/milk2/milk2.cpp",
 		"/Users/apple/USACO/Chapter1/milk2/milk2.out",
@@ -235,19 +257,19 @@
 			[
 				{
 					"buffer": 0,
-					"file": "Chapter1/Section1.2/transform/transform.cpp",
+					"file": "Chapter1/Section1.2/dualpal/dualpal.cpp",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 961,
+						"buffer_size": 928,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								762,
-								762
+								702,
+								702
 							]
 						],
 						"settings":
@@ -256,10 +278,38 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 1071.0,
+						"translation.y": 1054.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "Chapter1/Section1.2/dualpal/dualpal.out",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 9,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
 					"type": "text"
 				}
 			]
