@@ -52,19 +52,11 @@
 	"buffers":
 	[
 		{
-			"file": "Chapter1/Section1.2/dualpal/dualpal.cpp",
+			"file": "Chapter1/Section1.3/wormhole/wormhole.cpp",
 			"settings":
 			{
-				"buffer_size": 928,
+				"buffer_size": 396,
 				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "Chapter1/Section1.2/dualpal/dualpal.out",
-			"settings":
-			{
-				"buffer_size": 9,
 				"line_ending": "Unix"
 			}
 		}
@@ -119,11 +111,23 @@
 	[
 		"/Users/apple/USACO",
 		"/Users/apple/USACO/Chapter1",
-		"/Users/apple/USACO/Chapter1/Section1.2",
-		"/Users/apple/USACO/Chapter1/Section1.2/dualpal"
+		"/Users/apple/USACO/Chapter1/Section1.3",
+		"/Users/apple/USACO/Chapter1/Section1.3/wormhole"
 	],
 	"file_history":
 	[
+		"/Users/apple/USACO/Chapter1/Section1.3/combo/combo.out",
+		"/Users/apple/USACO/Chapter1/Section1.3/combo/combo.cpp",
+		"/Users/apple/USACO/Chapter1/Section1.3/crypt1/crypt1_2.cpp",
+		"/Users/apple/USACO/Chapter1/Section1.3/crypt1/crypt1.out",
+		"/Users/apple/USACO/Chapter1/Section1.3/crypt1/crypt1.cpp",
+		"/Users/apple/USACO/Chapter1/Section1.3/barn1/barn1.cpp",
+		"/Users/apple/USACO/Chapter1/Section1.3/barn1/barn1.out",
+		"/Users/apple/USACO/Chapter1/Section1.3/milk/milk.cpp",
+		"/Users/apple/USACO/Chapter1/Section1.3/milk/milk.out",
+		"/Users/apple/USACO/Chapter1/Section1.3/milk.cpp",
+		"/Users/apple/USACO/Chapter1/Section1.2/dualpal/dualpal.cpp",
+		"/Users/apple/USACO/Chapter1/Section1.2/dualpal/dualpal.out",
 		"/Users/apple/USACO/Chapter1/Section1.2/palsquare/palsquare.cpp",
 		"/Users/apple/USACO/Chapter1/Section1.2/palsquare/palsquare.out",
 		"/Users/apple/USACO/Chapter1/Section1.2/namenum/namenum.cpp",
@@ -257,19 +261,19 @@
 			[
 				{
 					"buffer": 0,
-					"file": "Chapter1/Section1.2/dualpal/dualpal.cpp",
+					"file": "Chapter1/Section1.3/wormhole/wormhole.cpp",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 928,
+						"buffer_size": 396,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								702,
-								702
+								351,
+								351
 							]
 						],
 						"settings":
@@ -278,38 +282,10 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 1054.0,
+						"translation.y": 320.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "Chapter1/Section1.2/dualpal/dualpal.out",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 9,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Text/Plain text.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
 					"type": "text"
 				}
 			]
@@ -400,7 +376,7 @@
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 175.0,
+	"side_bar_width": 180.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
