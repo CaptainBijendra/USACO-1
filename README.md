@@ -1,5 +1,5 @@
 # USACO Training
 
-These are my solutions to USACO Training.
+These are my solutions to USACO Training problems.
 
-Welcome to discuss things about algorithms and coding with me.
+Welcome to discuss algorithms and coding with me.

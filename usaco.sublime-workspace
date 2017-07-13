@@ -51,15 +51,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "Chapter1/Section1.3/wormhole/wormhole.cpp",
-			"settings":
-			{
-				"buffer_size": 396,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -93,7 +84,7 @@
 	},
 	"console":
 	{
-		"height": 0.0,
+		"height": 195.0,
 		"history":
 		[
 		]
@@ -111,11 +102,24 @@
 	[
 		"/Users/apple/USACO",
 		"/Users/apple/USACO/Chapter1",
-		"/Users/apple/USACO/Chapter1/Section1.3",
-		"/Users/apple/USACO/Chapter1/Section1.3/wormhole"
+		"/Users/apple/USACO/Chapter1/Section1.4",
+		"/Users/apple/USACO/Chapter1/Section1.4/pprime"
 	],
 	"file_history":
 	[
+		"/Users/apple/USACO/Chapter1/Section1.4/pprime/pprime.out",
+		"/Users/apple/USACO/Chapter1/Section1.4/pprime/pprime.cpp",
+		"/Users/apple/USACO/Chapter1/Section1.4/numtri/numtri.cpp",
+		"/Users/apple/USACO/Chapter1/Section1.4/milk3/milk3.cpp",
+		"/Users/apple/USACO/Chapter1/Section1.4/milk3/milk3.in",
+		"/Users/apple/USACO/Chapter1/Section1.4/ariprog.cpp",
+		"/Users/apple/USACO/Chapter1/Section1.4/ariprog.out",
+		"/Users/apple/USACO/Chapter1/Section1.4/ariprog.in",
+		"/Users/apple/USACO/Chapter1/Section1.3/skidesign/skidesign.cpp",
+		"/Users/apple/USACO/Chapter1/Section1.3/wormhole/wormhole_2.cpp",
+		"/Users/apple/USACO/Chapter1/Section1.3/wormhole/wormhole.cpp",
+		"/Users/apple/USACO/Chapter1/Section1.3/wormhole/wormhole.out",
+		"/Users/apple/USACO/Chapter1/Section1.3/wormhole/wormhole.in",
 		"/Users/apple/USACO/Chapter1/Section1.3/combo/combo.out",
 		"/Users/apple/USACO/Chapter1/Section1.3/combo/combo.cpp",
 		"/Users/apple/USACO/Chapter1/Section1.3/crypt1/crypt1_2.cpp",
@@ -223,6 +227,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"pair",
 			"right",
 			"left",
 			"print",
@@ -240,6 +245,7 @@
 		"regex": false,
 		"replace_history":
 		[
+			"hole_pair",
 			"right_max",
 			"left_max",
 			"\"",
@@ -256,38 +262,8 @@
 	"groups":
 	[
 		{
-			"selected": 0,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "Chapter1/Section1.3/wormhole/wormhole.cpp",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 396,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								351,
-								351
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/C++/C++.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 320.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				}
 			]
 		}
 	],
@@ -329,6 +305,10 @@
 	"output.find_results":
 	{
 		"height": 0.0
+	},
+	"output.sublime_haskell_error_panel":
+	{
+		"height": 160.0
 	},
 	"output.unsaved_changes":
 	{
