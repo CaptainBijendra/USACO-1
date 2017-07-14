@@ -51,6 +51,23 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "Chapter2/castle/castle.cpp",
+			"settings":
+			{
+				"buffer_size": 1813,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "Chapter2/castle/castle.out",
+			"settings":
+			{
+				"buffer_size": 13,
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -102,11 +119,14 @@
 	[
 		"/Users/apple/USACO",
 		"/Users/apple/USACO/Chapter1",
-		"/Users/apple/USACO/Chapter1/Section1.4",
-		"/Users/apple/USACO/Chapter1/Section1.4/pprime"
+		"/Users/apple/USACO/Chapter2",
+		"/Users/apple/USACO/Chapter2/castle"
 	],
 	"file_history":
 	[
+		"/Users/apple/USACO/Chapter1/Section1.5/sprime/sprime.cpp",
+		"/Users/apple/USACO/Chapter1/Section1.5/sprime/sprime.out",
+		"/Users/apple/USACO/Chapter1/Section1.5/pprime/pprime.cpp",
 		"/Users/apple/USACO/Chapter1/Section1.4/pprime/pprime.out",
 		"/Users/apple/USACO/Chapter1/Section1.4/pprime/pprime.cpp",
 		"/Users/apple/USACO/Chapter1/Section1.4/numtri/numtri.cpp",
@@ -262,8 +282,66 @@
 	"groups":
 	[
 		{
+			"selected": 0,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "Chapter2/castle/castle.cpp",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1813,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1339,
+								1339
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1336.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "Chapter2/castle/castle.out",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 13,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
 			]
 		}
 	],
