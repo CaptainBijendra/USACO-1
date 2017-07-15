@@ -52,19 +52,11 @@
 	"buffers":
 	[
 		{
-			"file": "Chapter2/castle/castle.cpp",
+			"file": "Chapter2/Section2.2/preface/preface.cpp",
 			"settings":
 			{
-				"buffer_size": 1813,
+				"buffer_size": 575,
 				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "Chapter2/castle/castle.out",
-			"settings":
-			{
-				"buffer_size": 13,
 				"line_ending": "Unix"
 			}
 		}
@@ -120,10 +112,23 @@
 		"/Users/apple/USACO",
 		"/Users/apple/USACO/Chapter1",
 		"/Users/apple/USACO/Chapter2",
-		"/Users/apple/USACO/Chapter2/castle"
+		"/Users/apple/USACO/Chapter2/Section2.2",
+		"/Users/apple/USACO/Chapter2/Section2.2/preface"
 	],
 	"file_history":
 	[
+		"/Users/apple/USACO/Chapter2/Section2.1/hamming/hamming.cpp",
+		"/Users/apple/USACO/Chapter2/Section2.1/hamming/hamming.out",
+		"/Users/apple/USACO/Chapter2/Section2.1/holstein/holstein.cpp",
+		"/Users/apple/USACO/Chapter2/Section2.1/holstein/holstein.in",
+		"/Users/apple/USACO/Chapter2/Section2.1/holstein/holstein.out",
+		"/Users/apple/USACO/Chapter2/Section2.1/sort3/sort3.in",
+		"/Users/apple/USACO/Chapter2/Section2.1/sort3/sort3.out",
+		"/Users/apple/USACO/Chapter2/Section2.1/sort3/sort3.cpp",
+		"/Users/apple/USACO/Chapter2/Section2.1/frac1/frac1.cpp",
+		"/Users/apple/USACO/Chapter2/Section2.1/frac1/frac1.out",
+		"/Users/apple/USACO/Chapter2/castle/castle.out",
+		"/Users/apple/USACO/Chapter2/castle/castle.cpp",
 		"/Users/apple/USACO/Chapter1/Section1.5/sprime/sprime.cpp",
 		"/Users/apple/USACO/Chapter1/Section1.5/sprime/sprime.out",
 		"/Users/apple/USACO/Chapter1/Section1.5/pprime/pprime.cpp",
@@ -287,19 +292,19 @@
 			[
 				{
 					"buffer": 0,
-					"file": "Chapter2/castle/castle.cpp",
+					"file": "Chapter2/Section2.2/preface/preface.cpp",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1813,
+						"buffer_size": 575,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1339,
-								1339
+								311,
+								311
 							]
 						],
 						"settings":
@@ -308,38 +313,10 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 1336.0,
+						"translation.y": 276.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "Chapter2/castle/castle.out",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 13,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Text/Plain text.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
 					"type": "text"
 				}
 			]
