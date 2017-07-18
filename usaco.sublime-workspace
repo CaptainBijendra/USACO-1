@@ -52,28 +52,26 @@
 	"buffers":
 	[
 		{
-			"file": "Chapter2/Section2.4/ttwo/ttwo.cpp",
+			"file": "Chapter2/Section2.4/cowtour/cowtour.in",
 			"settings":
 			{
-				"buffer_size": 1779,
-				"encoding": "UTF-8",
+				"buffer_size": 121,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "Chapter2/Section2.4/ttwo/ttwo.in",
+			"file": "Chapter2/Section2.4/cowtour/cowtour.cpp",
 			"settings":
 			{
-				"buffer_size": 118,
-				"encoding": "UTF-8",
+				"buffer_size": 2332,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "Chapter2/Section2.4/ttwo/ttwo.out",
+			"file": "Chapter2/Section2.4/cowtour/cowtour.out",
 			"settings":
 			{
-				"buffer_size": 4,
+				"buffer_size": 10,
 				"line_ending": "Unix"
 			}
 		}
@@ -130,10 +128,17 @@
 		"/Users/apple/USACO/Chapter1",
 		"/Users/apple/USACO/Chapter2",
 		"/Users/apple/USACO/Chapter2/Section2.4",
-		"/Users/apple/USACO/Chapter2/Section2.4/ttwo"
+		"/Users/apple/USACO/Chapter2/Section2.4/cowtour"
 	],
 	"file_history":
 	[
+		"/Users/apple/USACO/Chapter2/Section2.4/cowtour/cowtour.cpp",
+		"/Users/apple/USACO/Chapter2/Section2.4/cowtour/cowtour.in",
+		"/Users/apple/USACO/Chapter2/Section2.4/maze1/maze1.cpp",
+		"/Users/apple/USACO/Chapter2/Section2.4/maze1/maze1.out",
+		"/Users/apple/USACO/Chapter2/Section2.4/ttwo/ttwo.out",
+		"/Users/apple/USACO/Chapter2/Section2.4/ttwo/ttwo.in",
+		"/Users/apple/USACO/Chapter2/Section2.4/ttwo/ttwo.cpp",
 		"/Users/apple/USACO/Chapter2/Section2.3/concom/concom.cpp",
 		"/Users/apple/USACO/Chapter2/Section2.3/concom/concom.in",
 		"/Users/apple/USACO/Chapter2/Section2.3/concom/concom.out",
@@ -254,14 +259,7 @@
 		"/Users/apple/leet_practice/p67/p67.java",
 		"/Users/apple/leet_practice/test1.md",
 		"/Users/apple/leet_practice/p58/p58.java",
-		"/Users/apple/leet_practice/p22/p22.java",
-		"/Users/apple/leet_practice/p53/p53.java",
-		"/Users/apple/leet_practice/p35/p35.java",
-		"/Users/apple/leet_practice/p66/p66.java",
-		"/Users/apple/leet_practice/p127/p127.java",
-		"/Users/apple/leet_practice/p19/p19.java",
-		"/Users/apple/leet_practice/p21/p21.java",
-		"/Users/apple/leet_practice/p17/p17.java"
+		"/Users/apple/leet_practice/p22/p22.java"
 	],
 	"find":
 	{
@@ -280,6 +278,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"init_dist",
+			"exit",
 			"value",
 			"index",
 			"count",
@@ -301,6 +301,8 @@
 		"regex": false,
 		"replace_history":
 		[
+			"dist",
+			"exits",
 			"letter_index",
 			"letter_count",
 			"hole_pair",
@@ -320,73 +322,16 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 1,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "Chapter2/Section2.4/ttwo/ttwo.cpp",
-					"semi_transient": false,
+					"file": "Chapter2/Section2.4/cowtour/cowtour.in",
+					"semi_transient": true,
 					"settings":
 					{
-						"buffer_size": 1779,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1569,
-								1569
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/C++/C++.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 2077.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "Chapter2/Section2.4/ttwo/ttwo.in",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 118,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								118,
-								118
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Text/Plain text.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "Chapter2/Section2.4/ttwo/ttwo.out",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 4,
+						"buffer_size": 121,
 						"regions":
 						{
 						},
@@ -406,6 +351,63 @@
 						"zoom_level": 1.0
 					},
 					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "Chapter2/Section2.4/cowtour/cowtour.cpp",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2332,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "Chapter2/Section2.4/cowtour/cowtour.out",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 10,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
 					"type": "text"
 				}
 			]
