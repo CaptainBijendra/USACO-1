@@ -52,26 +52,11 @@
 	"buffers":
 	[
 		{
-			"file": "Chapter2/Section2.4/cowtour/cowtour.in",
+			"file": "Chapter3/Section3.1/agrinet/agrinet.cpp",
 			"settings":
 			{
-				"buffer_size": 121,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "Chapter2/Section2.4/cowtour/cowtour.cpp",
-			"settings":
-			{
-				"buffer_size": 2332,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "Chapter2/Section2.4/cowtour/cowtour.out",
-			"settings":
-			{
-				"buffer_size": 10,
+				"buffer_size": 261,
+				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		}
@@ -127,11 +112,20 @@
 		"/Users/apple/USACO",
 		"/Users/apple/USACO/Chapter1",
 		"/Users/apple/USACO/Chapter2",
-		"/Users/apple/USACO/Chapter2/Section2.4",
-		"/Users/apple/USACO/Chapter2/Section2.4/cowtour"
+		"/Users/apple/USACO/Chapter3",
+		"/Users/apple/USACO/Chapter3/Section3.1",
+		"/Users/apple/USACO/Chapter3/Section3.1/agrinet"
 	],
 	"file_history":
 	[
+		"/Users/apple/USACO/Chapter3/Section3.1/agrinet/agrinet.in",
+		"/Users/apple/USACO/Chapter2/Section2.4/fracdec/fracdec_2.cpp",
+		"/Users/apple/USACO/Chapter2/Section2.4/fracdec/fracdec.in",
+		"/Users/apple/USACO/Chapter2/Section2.4/fracdec/fracdec.out",
+		"/Users/apple/USACO/Chapter2/Section2.4/fracdec/fracdec.cpp",
+		"/Users/apple/USACO/Chapter2/Section2.4/comehome/comehome.out",
+		"/Users/apple/USACO/Chapter2/Section2.4/comehome/comehome.cpp",
+		"/Users/apple/USACO/Chapter2/Section2.4/cowtour/cowtour.out",
 		"/Users/apple/USACO/Chapter2/Section2.4/cowtour/cowtour.cpp",
 		"/Users/apple/USACO/Chapter2/Section2.4/cowtour/cowtour.in",
 		"/Users/apple/USACO/Chapter2/Section2.4/maze1/maze1.cpp",
@@ -251,15 +245,7 @@
 		"/Users/apple/leet_practice/p83/p83.java",
 		"/Users/apple/leet_practice/p4/p4.cpp",
 		"/Users/apple/leet_practice/p36/p36.java",
-		"/Users/apple/leet_practice/p29/p29.java",
-		"/Users/apple/leet_practice/p25/p25.java",
-		"/Users/apple/leet_practice/p24/p24.java",
-		"/Users/apple/leet_practice/p18/p18.java",
-		"/Users/apple/leet_practice/p23/p23.java",
-		"/Users/apple/leet_practice/p67/p67.java",
-		"/Users/apple/leet_practice/test1.md",
-		"/Users/apple/leet_practice/p58/p58.java",
-		"/Users/apple/leet_practice/p22/p22.java"
+		"/Users/apple/leet_practice/p29/p29.java"
 	],
 	"find":
 	{
@@ -322,52 +308,24 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 0,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "Chapter2/Section2.4/cowtour/cowtour.in",
-					"semi_transient": true,
-					"settings":
-					{
-						"buffer_size": 121,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Text/Plain text.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "Chapter2/Section2.4/cowtour/cowtour.cpp",
+					"file": "Chapter3/Section3.1/agrinet/agrinet.cpp",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2332,
+						"buffer_size": 261,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								232,
+								232
 							]
 						],
 						"settings":
@@ -380,34 +338,6 @@
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "Chapter2/Section2.4/cowtour/cowtour.out",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 10,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Text/Plain text.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
 					"type": "text"
 				}
 			]
