@@ -52,10 +52,10 @@
 	"buffers":
 	[
 		{
-			"file": "Chapter3/Section3.1/agrinet/agrinet.cpp",
+			"file": "Chapter3/Section3.2/ratios/ratios.cpp",
 			"settings":
 			{
-				"buffer_size": 261,
+				"buffer_size": 1803,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -111,13 +111,34 @@
 	[
 		"/Users/apple/USACO",
 		"/Users/apple/USACO/Chapter1",
-		"/Users/apple/USACO/Chapter2",
 		"/Users/apple/USACO/Chapter3",
-		"/Users/apple/USACO/Chapter3/Section3.1",
-		"/Users/apple/USACO/Chapter3/Section3.1/agrinet"
+		"/Users/apple/USACO/Chapter3/Section3.2",
+		"/Users/apple/USACO/Chapter3/Section3.2/ratios"
 	],
 	"file_history":
 	[
+		"/Users/apple/USACO/Chapter3/Section3.2/ratios/ratios.in",
+		"/Users/apple/USACO/Chapter3/Section3.2/ratios/ratios.out",
+		"/Users/apple/USACO/Chapter3/Section3.2/spin/spin.cpp",
+		"/Users/apple/USACO/Chapter3/Section3.2/spin/spin.out",
+		"/Users/apple/USACO/Chapter3/Section3.2/kimbits/kimbits.cpp",
+		"/Users/apple/USACO/Chapter3/Section3.2/spin/spin.in",
+		"/Users/apple/USACO/Chapter3/Section3.2/kimbits/kimbits.in",
+		"/Users/apple/USACO/Chapter3/Section3.2/kimbits/kimbits.out",
+		"/Users/apple/USACO/Chapter3/Section3.1/fact4/fact4.cpp",
+		"/Users/apple/USACO/Chapter3/Section3.1/fact4/fact4.out",
+		"/Users/apple/USACO/Chapter3/Section3.1/stamps/stamps.cpp",
+		"/Users/apple/USACO/Chapter3/Section3.1/stamps/stamps.out",
+		"/Users/apple/USACO/Chapter3/Section3.1/contact/contact.cpp",
+		"/Users/apple/USACO/Chapter3/Section3.1/contact/contact.in",
+		"/Users/apple/USACO/Chapter3/Section3.1/contact/contact.out",
+		"/Users/apple/USACO/Chapter3/Section3.1/humble/humble.cpp",
+		"/Users/apple/Desktop/USACO(Training)_backup_of_first_time_solutions/Section3.1/humble/humble.c",
+		"/Users/apple/USACO/Chapter3/Section3.1/humble/humble.out",
+		"/Users/apple/USACO/Chapter3/Section3.1/inflate/inflate.in",
+		"/Users/apple/USACO/Chapter3/Section3.1/inflate/inflate.out",
+		"/Users/apple/USACO/Chapter3/Section3.1/inflate/inflate.cpp",
+		"/Users/apple/USACO/Chapter3/Section3.1/agrinet/agrinet.cpp",
 		"/Users/apple/USACO/Chapter3/Section3.1/agrinet/agrinet.in",
 		"/Users/apple/USACO/Chapter2/Section2.4/fracdec/fracdec_2.cpp",
 		"/Users/apple/USACO/Chapter2/Section2.4/fracdec/fracdec.in",
@@ -223,29 +244,7 @@
 		"/Users/apple/leetcode_practice/p96/p96.java",
 		"/Users/apple/leetcode_practice/p41/p41.java",
 		"/Users/apple/leetcode_practice/p94/p94_2.java",
-		"/Users/apple/leetcode_practice/p94/p94.java",
-		"/Users/apple/leetcode_practice/p45/p45.java",
-		"/Users/apple/leetcode_practice/p47/p47.java",
-		"/Users/apple/leetcode_practice/p46/p46.java",
-		"/Users/apple/leetcode_practice/p60/p60.java",
-		"/Users/apple/leetcode_practice/p61/p61.java",
-		"/Users/apple/leetcode_practice/p101/p101.java",
-		"/Users/apple/leetcode_practice/p101/p101_2.java",
-		"/Users/apple/leetcode_practice/p56/p56_2.java",
-		"/Users/apple/leetcode_practice/p56/p56.java",
-		"/Users/apple/leetcode_practice/p59/p59.java",
-		"/Users/apple/leetcode_practice/p48/p48.java",
-		"/Users/apple/leetcode_practice/p125/p125.java",
-		"/Users/apple/leetcode_practice/p52/p52_2.java",
-		"/Users/apple/leetcode_practice/p52/p52.java",
-		"/Users/apple/leetcode_practice/p51/p51.java",
-		"/Users/apple/leetcode_practice/p37/p37.java",
-		"/Users/apple/leet_practice/p54/p54.java",
-		"/Users/apple/leet_practice/p31/p31.java",
-		"/Users/apple/leet_practice/p83/p83.java",
-		"/Users/apple/leet_practice/p4/p4.cpp",
-		"/Users/apple/leet_practice/p36/p36.java",
-		"/Users/apple/leet_practice/p29/p29.java"
+		"/Users/apple/leetcode_practice/p94/p94.java"
 	],
 	"find":
 	{
@@ -264,6 +263,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"operator",
 			"init_dist",
 			"exit",
 			"value",
@@ -313,19 +313,19 @@
 			[
 				{
 					"buffer": 0,
-					"file": "Chapter3/Section3.1/agrinet/agrinet.cpp",
+					"file": "Chapter3/Section3.2/ratios/ratios.cpp",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 261,
+						"buffer_size": 1803,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								232,
-								232
+								1358,
+								1358
 							]
 						],
 						"settings":
@@ -334,7 +334,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 321.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
@@ -432,7 +432,7 @@
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 180.0,
+	"side_bar_width": 216.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
