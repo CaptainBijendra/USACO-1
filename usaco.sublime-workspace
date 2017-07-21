@@ -52,10 +52,10 @@
 	"buffers":
 	[
 		{
-			"file": "Chapter3/Section3.2/ratios/ratios.cpp",
+			"file": "Chapter3/Section3.2/msquare/msquare.cpp",
 			"settings":
 			{
-				"buffer_size": 1803,
+				"buffer_size": 2133,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -113,10 +113,14 @@
 		"/Users/apple/USACO/Chapter1",
 		"/Users/apple/USACO/Chapter3",
 		"/Users/apple/USACO/Chapter3/Section3.2",
-		"/Users/apple/USACO/Chapter3/Section3.2/ratios"
+		"/Users/apple/USACO/Chapter3/Section3.2/msquare"
 	],
 	"file_history":
 	[
+		"/Users/apple/USACO/Chapter3/Section3.2/msquare/msquare.in",
+		"/Users/apple/USACO/Chapter3/Section3.2/msquare/msquare.out",
+		"/Users/apple/USACO/Chapter3/Section3.2/msquare/msquare.cpp",
+		"/Users/apple/USACO/Chapter3/Section3.2/ratios/ratios.cpp",
 		"/Users/apple/USACO/Chapter3/Section3.2/ratios/ratios.in",
 		"/Users/apple/USACO/Chapter3/Section3.2/ratios/ratios.out",
 		"/Users/apple/USACO/Chapter3/Section3.2/spin/spin.cpp",
@@ -240,11 +244,7 @@
 		"/Users/apple/leetcode_practice/p75/p75_2.java",
 		"/Users/apple/leetcode_practice/p75/p75_3.java",
 		"/Users/apple/leetcode_practice/p62/p62.java",
-		"/Users/apple/leetcode_practice/p89/p89.java",
-		"/Users/apple/leetcode_practice/p96/p96.java",
-		"/Users/apple/leetcode_practice/p41/p41.java",
-		"/Users/apple/leetcode_practice/p94/p94_2.java",
-		"/Users/apple/leetcode_practice/p94/p94.java"
+		"/Users/apple/leetcode_practice/p89/p89.java"
 	],
 	"find":
 	{
@@ -263,6 +263,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"==",
 			"operator",
 			"init_dist",
 			"exit",
@@ -313,19 +314,19 @@
 			[
 				{
 					"buffer": 0,
-					"file": "Chapter3/Section3.2/ratios/ratios.cpp",
+					"file": "Chapter3/Section3.2/msquare/msquare.cpp",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1803,
+						"buffer_size": 2133,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1358,
-								1358
+								308,
+								308
 							]
 						],
 						"settings":
@@ -334,7 +335,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 321.0,
+						"translation.y": 113.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
