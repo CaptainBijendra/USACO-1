@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"p",
+				"p"
+			],
+			[
 				"I",
 				"INT_MAX"
 			],
@@ -52,11 +56,19 @@
 	"buffers":
 	[
 		{
-			"file": "Chapter3/Section3.2/msquare/msquare.cpp",
+			"file": "Chapter3/Section3.3/shopping/shopping.cpp",
 			"settings":
 			{
-				"buffer_size": 2133,
+				"buffer_size": 1615,
 				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "Chapter3/Section3.3/shopping/shopping.out",
+			"settings":
+			{
+				"buffer_size": 5,
 				"line_ending": "Unix"
 			}
 		}
@@ -112,14 +124,21 @@
 		"/Users/apple/USACO",
 		"/Users/apple/USACO/Chapter1",
 		"/Users/apple/USACO/Chapter3",
-		"/Users/apple/USACO/Chapter3/Section3.2",
-		"/Users/apple/USACO/Chapter3/Section3.2/msquare"
+		"/Users/apple/USACO/Chapter3/Section3.3/shopping"
 	],
 	"file_history":
 	[
+		"/Users/apple/USACO/Chapter3/Section3.3/shopping/shopping.in",
+		"/Users/apple/USACO/Chapter3/Section3.3/fence/fence.cpp",
+		"/Users/apple/USACO/Chapter3/Section3.3/fence/fence.in",
+		"/Users/apple/USACO/Chapter3/Section3.3/fence/fence.out",
+		"/Users/apple/USACO/Chapter3/Section3.2/butter/butter.cpp",
+		"/Users/apple/USACO/Chapter3/Section3.2/butter/butter.in",
+		"/Users/apple/USACO/Chapter3/Section3.2/butter/butter.out",
+		"/Users/apple/USACO/Chapter3/Section3.2/msquare/msquare.cpp",
 		"/Users/apple/USACO/Chapter3/Section3.2/msquare/msquare.in",
 		"/Users/apple/USACO/Chapter3/Section3.2/msquare/msquare.out",
-		"/Users/apple/USACO/Chapter3/Section3.2/msquare/msquare.cpp",
+		"/Users/apple/Desktop/USACO(Training)_backup_of_first_time_solutions/Section3.2/msquare/stand/msquare.cpp",
 		"/Users/apple/USACO/Chapter3/Section3.2/ratios/ratios.cpp",
 		"/Users/apple/USACO/Chapter3/Section3.2/ratios/ratios.in",
 		"/Users/apple/USACO/Chapter3/Section3.2/ratios/ratios.out",
@@ -236,15 +255,7 @@
 		"/Users/apple/USACO/Chapter1/friday/friday.cpp",
 		"/Users/apple/USACO/Chapter1/friday/friday.out",
 		"/Users/apple/USACO/Chapter1/gift1/gift1.cpp",
-		"/Users/apple/leetcode_practice/p73/p73.java",
-		"/Users/apple/leetcode_practice/p123/p123_2.java",
-		"/Users/apple/leetcode_practice/p123/p123.java",
-		"/Users/apple/leetcode_practice/p122/p122.java",
-		"/Users/apple/leetcode_practice/p75/p75.java",
-		"/Users/apple/leetcode_practice/p75/p75_2.java",
-		"/Users/apple/leetcode_practice/p75/p75_3.java",
-		"/Users/apple/leetcode_practice/p62/p62.java",
-		"/Users/apple/leetcode_practice/p89/p89.java"
+		"/Users/apple/leetcode_practice/p73/p73.java"
 	],
 	"find":
 	{
@@ -263,6 +274,15 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"transformed[t]",
+			"consider[i]",
+			"en[i]",
+			"st[i]",
+			"ans",
+			"next",
+			"last_move",
+			"k",
+			"get_num",
 			"==",
 			"operator",
 			"init_dist",
@@ -288,6 +308,14 @@
 		"regex": false,
 		"replace_history":
 		[
+			"offers[t].num[code[]]",
+			"consider",
+			"en",
+			"st",
+			"Eulerian",
+			"next_edge",
+			"opr",
+			"cantor",
 			"dist",
 			"exits",
 			"letter_index",
@@ -314,19 +342,19 @@
 			[
 				{
 					"buffer": 0,
-					"file": "Chapter3/Section3.2/msquare/msquare.cpp",
+					"file": "Chapter3/Section3.3/shopping/shopping.cpp",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2133,
+						"buffer_size": 1615,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								308,
-								308
+								1469,
+								1469
 							]
 						],
 						"settings":
@@ -334,11 +362,39 @@
 							"syntax": "Packages/C++/C++.sublime-syntax",
 							"translate_tabs_to_spaces": false
 						},
-						"translation.x": 0.0,
-						"translation.y": 113.0,
+						"translation.x": 275.0,
+						"translation.y": 1250.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "Chapter3/Section3.3/shopping/shopping.out",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
 					"type": "text"
 				}
 			]
@@ -433,7 +489,7 @@
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 216.0,
+	"side_bar_width": 167.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
