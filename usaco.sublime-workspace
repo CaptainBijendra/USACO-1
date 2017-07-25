@@ -56,19 +56,11 @@
 	"buffers":
 	[
 		{
-			"file": "Chapter3/Section3.3/shopping/shopping.cpp",
+			"file": "Chapter3/Section3.4/rockers/rockers.cpp",
 			"settings":
 			{
-				"buffer_size": 1615,
+				"buffer_size": 398,
 				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "Chapter3/Section3.3/shopping/shopping.out",
-			"settings":
-			{
-				"buffer_size": 5,
 				"line_ending": "Unix"
 			}
 		}
@@ -124,10 +116,26 @@
 		"/Users/apple/USACO",
 		"/Users/apple/USACO/Chapter1",
 		"/Users/apple/USACO/Chapter3",
-		"/Users/apple/USACO/Chapter3/Section3.3/shopping"
+		"/Users/apple/USACO/Chapter3/Section3.4",
+		"/Users/apple/USACO/Chapter3/Section3.4/rockers"
 	],
 	"file_history":
 	[
+		"/Users/apple/USACO/Chapter3/Section3.4/rockers/rockers.in",
+		"/Users/apple/USACO/Chapter3/Section3.4/heritage/heritage.cpp",
+		"/Users/apple/USACO/Chapter3/Section3.4/heritage/heritage.out",
+		"/Users/apple/USACO/Chapter3/Section3.3/game1/game1.cpp",
+		"/Users/apple/USACO/Chapter3/Section3.4/heritage/heritage.in",
+		"/Users/apple/USACO/Chapter3/Section3.3/game1/game1.in",
+		"/Users/apple/USACO/Chapter3/Section3.3/game1/game1.out",
+		"/Users/apple/USACO/Chapter3/Section3.3/range/range.cpp",
+		"/Users/apple/USACO/Chapter3/Section3.3/range/range.out",
+		"/Users/apple/USACO/Chapter3/Section3.3/range/range.in",
+		"/Users/apple/USACO/Chapter3/Section3.3/camelot/camelot.cpp",
+		"/Users/apple/USACO/Chapter3/Section3.3/camelot/camelot.in",
+		"/Users/apple/USACO/Chapter3/Section3.3/camelot/camelot.out",
+		"/Users/apple/USACO/Chapter3/Section3.3/shopping/shopping.cpp",
+		"/Users/apple/USACO/Chapter3/Section3.3/shopping/shopping.out",
 		"/Users/apple/USACO/Chapter3/Section3.3/shopping/shopping.in",
 		"/Users/apple/USACO/Chapter3/Section3.3/fence/fence.cpp",
 		"/Users/apple/USACO/Chapter3/Section3.3/fence/fence.in",
@@ -240,22 +248,7 @@
 		"/Users/apple/USACO/Chapter1/Section1.3/milk/milk.out",
 		"/Users/apple/USACO/Chapter1/Section1.3/milk.cpp",
 		"/Users/apple/USACO/Chapter1/Section1.2/dualpal/dualpal.cpp",
-		"/Users/apple/USACO/Chapter1/Section1.2/dualpal/dualpal.out",
-		"/Users/apple/USACO/Chapter1/Section1.2/palsquare/palsquare.cpp",
-		"/Users/apple/USACO/Chapter1/Section1.2/palsquare/palsquare.out",
-		"/Users/apple/USACO/Chapter1/Section1.2/namenum/namenum.cpp",
-		"/Users/apple/USACO/Chapter1/Section1.2/transform/transform.cpp",
-		"/Users/apple/USACO/Chapter1/Section1.2/transform/transform_2.cpp",
-		"/Users/apple/USACO/Chapter1/Section1.2/transform/transform.out",
-		"/Users/apple/USACO/Chapter1/transform/transform.cpp",
-		"/Users/apple/USACO/Chapter1/milk2/milk2.cpp",
-		"/Users/apple/USACO/Chapter1/milk2/milk2.out",
-		"/Users/apple/USACO/Chapter1/beads/beads.cpp",
-		"/Users/apple/USACO/Chapter1/beads/beads.out",
-		"/Users/apple/USACO/Chapter1/friday/friday.cpp",
-		"/Users/apple/USACO/Chapter1/friday/friday.out",
-		"/Users/apple/USACO/Chapter1/gift1/gift1.cpp",
-		"/Users/apple/leetcode_practice/p73/p73.java"
+		"/Users/apple/USACO/Chapter1/Section1.2/dualpal/dualpal.out"
 	],
 	"find":
 	{
@@ -274,6 +267,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"cur.",
 			"transformed[t]",
 			"consider[i]",
 			"en[i]",
@@ -308,6 +302,7 @@
 		"regex": false,
 		"replace_history":
 		[
+			"cur->",
 			"offers[t].num[code[]]",
 			"consider",
 			"en",
@@ -342,19 +337,19 @@
 			[
 				{
 					"buffer": 0,
-					"file": "Chapter3/Section3.3/shopping/shopping.cpp",
+					"file": "Chapter3/Section3.4/rockers/rockers.cpp",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1615,
+						"buffer_size": 398,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1469,
-								1469
+								323,
+								323
 							]
 						],
 						"settings":
@@ -362,39 +357,11 @@
 							"syntax": "Packages/C++/C++.sublime-syntax",
 							"translate_tabs_to_spaces": false
 						},
-						"translation.x": 275.0,
-						"translation.y": 1250.0,
+						"translation.x": 0.0,
+						"translation.y": 125.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "Chapter3/Section3.3/shopping/shopping.out",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 5,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Text/Plain text.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
 					"type": "text"
 				}
 			]
