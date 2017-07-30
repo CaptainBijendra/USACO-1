@@ -13,7 +13,7 @@ using namespace std;
 const int maxn = 202;
 
 int n,m;
-int v[maxn][maxn],match[maxn],vis[maxn],res[maxn];
+int v[maxn][maxn],match[maxn],vis[maxn];
 
 bool find_match(int cur)
 {
@@ -24,9 +24,9 @@ bool find_match(int cur)
 		if(vis[t]) continue;
 
 		vis[t]=true;
-		if(res[t]==0 || find_match(res[t]))
+		if(match[t]==0 || find_match(match[t]))
 		{
-			res[t]=cur;
+			match[t]=cur;
 			return true;
 		}
 	}

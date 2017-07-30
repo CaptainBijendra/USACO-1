@@ -55,23 +55,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "Chapter4/Section4.2/stall4/stall4.cpp",
-			"settings":
-			{
-				"buffer_size": 782,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "Chapter4/Section4.2/stall4/stall4.out",
-			"settings":
-			{
-				"buffer_size": 2,
-				"line_ending": "Unix"
-			}
-		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -126,19 +109,21 @@
 		"/Users/apple/USACO/Chapter3",
 		"/Users/apple/USACO/Chapter4",
 		"/Users/apple/USACO/Chapter4/Section4.1",
-		"/Users/apple/USACO/Chapter4/Section4.1/fence6",
+		"/Users/apple/USACO/Chapter4/Section4.1/nuggets",
 		"/Users/apple/USACO/Chapter4/Section4.2",
 		"/Users/apple/USACO/Chapter4/Section4.2/stall4"
 	],
 	"file_history":
 	[
+		"/Users/apple/USACO/Chapter4/Section4.2/stall4/stall4.cpp",
+		"/Users/apple/USACO/Chapter4/Section4.2/stall4/stall4.out",
+		"/Users/apple/USACO/Chapter4/Section4.1/nuggets/nuggets.cpp",
 		"/Users/apple/USACO/Chapter4/Section4.1/fence6/fence6.cpp",
 		"/Users/apple/USACO/Chapter4/Section4.1/fence6/fence6.in",
 		"/Users/apple/USACO/Chapter4/Section4.1/fence6/fence6.out",
 		"/Users/apple/USACO/Chapter4/Section4.2/stall4/stall4.in",
 		"/Users/apple/Desktop/USACO(Training)_backup_of_first_time_solutions/Section4.1/fence6/fence6.c",
 		"/Users/apple/USACO/Chapter4/Section4.1/fence6/fence6_2.cpp",
-		"/Users/apple/USACO/Chapter4/Section4.1/nuggets/nuggets.cpp",
 		"/Users/apple/USACO/Chapter4/Section4.1/nuggets/nuggets.in",
 		"/Users/apple/USACO/Chapter4/Section4.1/nuggets/nuggets.out",
 		"/Users/apple/Desktop/USACO(Training)_backup_of_first_time_solutions/Section4.1/nuggets/nuggets.c",
@@ -257,9 +242,7 @@
 		"/Users/apple/USACO/Chapter1/Section1.4/ariprog.cpp",
 		"/Users/apple/USACO/Chapter1/Section1.4/ariprog.out",
 		"/Users/apple/USACO/Chapter1/Section1.4/ariprog.in",
-		"/Users/apple/USACO/Chapter1/Section1.3/skidesign/skidesign.cpp",
-		"/Users/apple/USACO/Chapter1/Section1.3/wormhole/wormhole_2.cpp",
-		"/Users/apple/USACO/Chapter1/Section1.3/wormhole/wormhole.cpp"
+		"/Users/apple/USACO/Chapter1/Section1.3/skidesign/skidesign.cpp"
 	],
 	"find":
 	{
@@ -347,66 +330,8 @@
 	"groups":
 	[
 		{
-			"selected": 1,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "Chapter4/Section4.2/stall4/stall4.cpp",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 782,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								100,
-								100
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/C++/C++.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "Chapter4/Section4.2/stall4/stall4.out",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Text/Plain text.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				}
 			]
 		}
 	],
