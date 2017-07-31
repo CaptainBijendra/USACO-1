@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"be",
+				"best_len"
+			],
+			[
 				"p",
 				"p"
 			],
@@ -55,6 +59,32 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "Chapter4/Section4.3/buylow/buylow.cpp",
+			"settings":
+			{
+				"buffer_size": 1273,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "Chapter4/Section4.3/buylow/buylow.in",
+			"settings":
+			{
+				"buffer_size": 55,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "Chapter4/Section4.3/buylow/buylow.out",
+			"settings":
+			{
+				"buffer_size": 5,
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -108,22 +138,27 @@
 		"/Users/apple/USACO/Chapter1",
 		"/Users/apple/USACO/Chapter3",
 		"/Users/apple/USACO/Chapter4",
-		"/Users/apple/USACO/Chapter4/Section4.1",
-		"/Users/apple/USACO/Chapter4/Section4.1/nuggets",
-		"/Users/apple/USACO/Chapter4/Section4.2",
-		"/Users/apple/USACO/Chapter4/Section4.2/stall4"
+		"/Users/apple/USACO/Chapter4/Section4.3",
+		"/Users/apple/USACO/Chapter4/Section4.3/buylow"
 	],
 	"file_history":
 	[
+		"/Users/apple/USACO/Chapter4/Section4.2/job/job.cpp",
+		"/Users/apple/USACO/Chapter4/Section4.3/buylow/buylow.in",
+		"/Users/apple/USACO/Chapter4/Section4.2/job/job.in",
+		"/Users/apple/USACO/Chapter4/Section4.2/job/job.out",
+		"/Users/apple/USACO/Chapter4/Section4.2/ditch/ditch.cpp",
+		"/Users/apple/USACO/Chapter4/Section4.2/ditch/ditch.out",
+		"/Users/apple/USACO/Chapter4/Section4.2/ditch/ditch.in",
+		"/Users/apple/USACO/Chapter4/Section4.1/fence6/fence6_2.cpp",
+		"/Users/apple/USACO/Chapter4/Section4.1/fence6/fence6.out",
+		"/Users/apple/USACO/Chapter4/Section4.1/fence6/fence6.in",
 		"/Users/apple/USACO/Chapter4/Section4.2/stall4/stall4.cpp",
 		"/Users/apple/USACO/Chapter4/Section4.2/stall4/stall4.out",
 		"/Users/apple/USACO/Chapter4/Section4.1/nuggets/nuggets.cpp",
 		"/Users/apple/USACO/Chapter4/Section4.1/fence6/fence6.cpp",
-		"/Users/apple/USACO/Chapter4/Section4.1/fence6/fence6.in",
-		"/Users/apple/USACO/Chapter4/Section4.1/fence6/fence6.out",
 		"/Users/apple/USACO/Chapter4/Section4.2/stall4/stall4.in",
 		"/Users/apple/Desktop/USACO(Training)_backup_of_first_time_solutions/Section4.1/fence6/fence6.c",
-		"/Users/apple/USACO/Chapter4/Section4.1/fence6/fence6_2.cpp",
 		"/Users/apple/USACO/Chapter4/Section4.1/nuggets/nuggets.in",
 		"/Users/apple/USACO/Chapter4/Section4.1/nuggets/nuggets.out",
 		"/Users/apple/Desktop/USACO(Training)_backup_of_first_time_solutions/Section4.1/nuggets/nuggets.c",
@@ -235,14 +270,7 @@
 		"/Users/apple/USACO/Chapter1/Section1.5/sprime/sprime.out",
 		"/Users/apple/USACO/Chapter1/Section1.5/pprime/pprime.cpp",
 		"/Users/apple/USACO/Chapter1/Section1.4/pprime/pprime.out",
-		"/Users/apple/USACO/Chapter1/Section1.4/pprime/pprime.cpp",
-		"/Users/apple/USACO/Chapter1/Section1.4/numtri/numtri.cpp",
-		"/Users/apple/USACO/Chapter1/Section1.4/milk3/milk3.cpp",
-		"/Users/apple/USACO/Chapter1/Section1.4/milk3/milk3.in",
-		"/Users/apple/USACO/Chapter1/Section1.4/ariprog.cpp",
-		"/Users/apple/USACO/Chapter1/Section1.4/ariprog.out",
-		"/Users/apple/USACO/Chapter1/Section1.4/ariprog.in",
-		"/Users/apple/USACO/Chapter1/Section1.3/skidesign/skidesign.cpp"
+		"/Users/apple/USACO/Chapter1/Section1.4/pprime/pprime.cpp"
 	],
 	"find":
 	{
@@ -261,6 +289,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"lim1",
+			"max",
 			"find",
 			"dist",
 			"cur.",
@@ -298,6 +328,7 @@
 		"regex": false,
 		"replace_history":
 		[
+			"lim",
 			"g",
 			"init_dist",
 			"cur->",
@@ -330,8 +361,94 @@
 	"groups":
 	[
 		{
+			"selected": 0,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "Chapter4/Section4.3/buylow/buylow.cpp",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1273,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1224,
+								1224
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1576.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "Chapter4/Section4.3/buylow/buylow.in",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 55,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								55,
+								55
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "Chapter4/Section4.3/buylow/buylow.out",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				}
 			]
 		}
 	],
