@@ -11,28 +11,55 @@ LANG: C++
 using namespace std;
 
 const int maxn = 5002;
+const int base = 10;
 
 int n,price[maxn],f[maxn];
-int best_len=0,sum=0;
-int idx=0,sol[200][maxn];
-int now[maxn];
-bool invalid[maxn];
+int best_len=0;
 
-void dfs(int cur,int num)
+class BigNumber
 {
-	now[num]=cur;
+public:
+	int len;
+	int d[200];
+	BigNumber() { len=1; d[1]=0; }
+	void clear() { len=1; d[1]=0; }
+	void print(fstream *fout);
+	
+	void operator += (const BigNumber &b);
+	void operator = (const BigNumber &b);
+} g[maxn],sum;
 
-	if(num==best_len)
+void BigNumber::operator += (const BigNumber &b)
+{
+	int l=max(this->len,b.len),i,tmp,rem;
+
+	i=1; rem=0;
+	while(i<=l || rem!=0)
 	{
-		idx++;
-		for(int i=1;i<=best_len;i++)
-			sol[idx][i]=now[i];
-		return;
+		tmp=rem;
+		if(i<=this->len) tmp+=this->d[i];
+		if(i<=b.len) tmp+=b.d[i];
+
+		this->d[i]=tmp%base;
+		rem=tmp/base;
+		i++;
 	}
 
-	for(int i=cur-1;i>=1;i--)
-		if(price[i]>price[cur] && f[i]==f[cur]-1)
-			dfs(i,num+1);
+	if(i-1>this->len) this->len=i-1;
+}
+
+void BigNumber::operator = (const BigNumber &b)
+{
+	this->len=b.len;
+	for(int i=1;i<=b.len;i++)
+		this->d[i]=b.d[i];
+}
+
+void BigNumber::print(fstream *fout)
+{
+	for(int i=len;i>=1;i--)
+		*fout<<d[i];
+	*fout<<endl;
 }
 
 int main()
@@ -47,6 +74,7 @@ int main()
 	for(int i=1;i<=n;i++)
 	{
 		f[i]=1;
+
 		for(int j=i-1;j>=1;j--)
 			if(price[j]>price[i] && f[j]+1>f[i])
 				f[i]=f[j]+1;
@@ -55,36 +83,35 @@ int main()
 	}
 
 	for(int i=1;i<=n;i++)
-		if(f[i]==best_len)
-			dfs(i,1);
-
-	sum=idx;
-	int k;
-	for(int i=1;i<idx;i++)
-		if(!invalid[i])
+	{
+		if(f[i]==1)
+			g[i].len=g[i].d[1]=1;
+		else
 		{
-			for(int j=i+1;j<=idx;j++)
-				if(!invalid[j])
+			g[i].clear();
+			int goal = f[i]-1;
+			int last = -1;
+			for(int j=i-1;j>=1;j--)
+				if(price[j]>price[i] && f[j]==goal && price[j]!=last)
 				{
-					k=1;
-					while(sol[i][k]==sol[j][k] && k<=best_len)
-						k++;
-					
-					if(k==best_len+1)
-					{
-						sum--;
-						invalid[j]=true;
-					}
+					g[i]+=g[j];
+					last=price[j];
 				}
 		}
+	}
 
-	for(int i=1;i<=idx;i++)
-		if(!invalid[i])
+	int last = -1;
+	sum.clear();
+	for(int i=n;i>=1;i--)
+		if(f[i]==best_len && price[i]!=last)
 		{
-			printf("i:%d\n",i );
+			sum+=g[i];
+			last=price[i];
 		}
 
-	fout<<best_len<<" "<<sum<<endl;
+	fout<<best_len<<" ";
+	sum.print(&fout);
+
 	fin.close();
 	fout.close();
 	return 0;

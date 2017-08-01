@@ -60,28 +60,19 @@
 	"buffers":
 	[
 		{
-			"file": "Chapter4/Section4.3/buylow/buylow.cpp",
+			"file": "Chapter4/Section4.3/lgame/lgame.cpp",
 			"settings":
 			{
-				"buffer_size": 1273,
+				"buffer_size": 2881,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "Chapter4/Section4.3/buylow/buylow.in",
+			"file": "Chapter4/Section4.3/lgame/lgame.out",
 			"settings":
 			{
-				"buffer_size": 55,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "Chapter4/Section4.3/buylow/buylow.out",
-			"settings":
-			{
-				"buffer_size": 5,
+				"buffer_size": 137,
 				"line_ending": "Unix"
 			}
 		}
@@ -109,12 +100,12 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 0.0,
+		"height": 392.0,
 		"last_filter": "",
 		"selected_items":
 		[
 		],
-		"width": 0.0
+		"width": 485.0
 	},
 	"console":
 	{
@@ -139,12 +130,18 @@
 		"/Users/apple/USACO/Chapter3",
 		"/Users/apple/USACO/Chapter4",
 		"/Users/apple/USACO/Chapter4/Section4.3",
-		"/Users/apple/USACO/Chapter4/Section4.3/buylow"
+		"/Users/apple/USACO/Chapter4/Section4.3/lgame"
 	],
 	"file_history":
 	[
-		"/Users/apple/USACO/Chapter4/Section4.2/job/job.cpp",
+		"/Users/apple/USACO/Chapter4/Section4.3/lgame/lgame.in",
+		"/Users/apple/USACO/Chapter4/Section4.3/race3/race3.cpp",
+		"/Users/apple/USACO/Chapter4/Section4.3/race3/race3.out",
+		"/Users/apple/USACO/Chapter4/Section4.3/race3/race3.in",
+		"/Users/apple/USACO/Chapter4/Section4.3/buylow/buylow.cpp",
 		"/Users/apple/USACO/Chapter4/Section4.3/buylow/buylow.in",
+		"/Users/apple/USACO/Chapter4/Section4.3/buylow/buylow.out",
+		"/Users/apple/USACO/Chapter4/Section4.2/job/job.cpp",
 		"/Users/apple/USACO/Chapter4/Section4.2/job/job.in",
 		"/Users/apple/USACO/Chapter4/Section4.2/job/job.out",
 		"/Users/apple/USACO/Chapter4/Section4.2/ditch/ditch.cpp",
@@ -264,13 +261,7 @@
 		"/Users/apple/USACO/Chapter2/Section2.1/sort3/sort3.cpp",
 		"/Users/apple/USACO/Chapter2/Section2.1/frac1/frac1.cpp",
 		"/Users/apple/USACO/Chapter2/Section2.1/frac1/frac1.out",
-		"/Users/apple/USACO/Chapter2/castle/castle.out",
-		"/Users/apple/USACO/Chapter2/castle/castle.cpp",
-		"/Users/apple/USACO/Chapter1/Section1.5/sprime/sprime.cpp",
-		"/Users/apple/USACO/Chapter1/Section1.5/sprime/sprime.out",
-		"/Users/apple/USACO/Chapter1/Section1.5/pprime/pprime.cpp",
-		"/Users/apple/USACO/Chapter1/Section1.4/pprime/pprime.out",
-		"/Users/apple/USACO/Chapter1/Section1.4/pprime/pprime.cpp"
+		"/Users/apple/USACO/Chapter2/castle/castle.out"
 	],
 	"find":
 	{
@@ -289,6 +280,9 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"Trie",
+			"unavoidable",
+			"next",
 			"lim1",
 			"max",
 			"find",
@@ -328,6 +322,9 @@
 		"regex": false,
 		"replace_history":
 		[
+			"TrieNode",
+			"key",
+			"next_num",
 			"lim",
 			"g",
 			"init_dist",
@@ -366,19 +363,19 @@
 			[
 				{
 					"buffer": 0,
-					"file": "Chapter4/Section4.3/buylow/buylow.cpp",
+					"file": "Chapter4/Section4.3/lgame/lgame.cpp",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1273,
+						"buffer_size": 2881,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1224,
-								1224
+								1898,
+								1898
 							]
 						],
 						"settings":
@@ -387,7 +384,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 1576.0,
+						"translation.y": 2941.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
@@ -395,19 +392,19 @@
 				},
 				{
 					"buffer": 1,
-					"file": "Chapter4/Section4.3/buylow/buylow.in",
-					"semi_transient": false,
+					"file": "Chapter4/Section4.3/lgame/lgame.out",
+					"semi_transient": true,
 					"settings":
 					{
-						"buffer_size": 55,
+						"buffer_size": 137,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								55,
-								55
+								137,
+								137
 							]
 						],
 						"settings":
@@ -419,34 +416,6 @@
 						"zoom_level": 1.0
 					},
 					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "Chapter4/Section4.3/buylow/buylow.out",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 5,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Text/Plain text.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
 					"type": "text"
 				}
 			]
