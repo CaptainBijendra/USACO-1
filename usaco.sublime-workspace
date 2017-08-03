@@ -60,19 +60,11 @@
 	"buffers":
 	[
 		{
-			"file": "Chapter4/Section4.3/lgame/lgame.cpp",
+			"file": "Chapter4/Section4.4/frameup/frameup.cpp",
 			"settings":
 			{
-				"buffer_size": 2881,
+				"buffer_size": 2098,
 				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "Chapter4/Section4.3/lgame/lgame.out",
-			"settings":
-			{
-				"buffer_size": 137,
 				"line_ending": "Unix"
 			}
 		}
@@ -129,12 +121,23 @@
 		"/Users/apple/USACO/Chapter1",
 		"/Users/apple/USACO/Chapter3",
 		"/Users/apple/USACO/Chapter4",
-		"/Users/apple/USACO/Chapter4/Section4.3",
-		"/Users/apple/USACO/Chapter4/Section4.3/lgame"
+		"/Users/apple/USACO/Chapter4/Section4.4",
+		"/Users/apple/USACO/Chapter4/Section4.4/frameup"
 	],
 	"file_history":
 	[
+		"/Users/apple/USACO/Chapter4/Section4.4/frameup/frameup.in",
+		"/Users/apple/USACO/Chapter4/Section4.4/frameup/frameup.out",
+		"/Users/apple/USACO/Chapter4/Section4.4/milk6/milk6.cpp",
+		"/Users/apple/USACO/Chapter4/Section4.4/milk6/milk6.out",
+		"/Users/apple/USACO/Chapter4/Section4.4/milk6/milk6.in",
+		"/Users/apple/Desktop/USACO(Training)_backup_of_first_time_solutions/Section4.4/milk6/milk6.c",
+		"/Users/apple/USACO/Chapter4/Section4.4/shuttle/shuttle.cpp",
+		"/Users/apple/USACO/Chapter4/Section4.4/shuttle/shuttle.out",
+		"/Users/apple/USACO/Chapter4/Section4.4/shuttle/shuttle.in",
+		"/Users/apple/USACO/Chapter4/Section4.3/lgame/lgame.cpp",
 		"/Users/apple/USACO/Chapter4/Section4.3/lgame/lgame.in",
+		"/Users/apple/USACO/Chapter4/Section4.3/lgame/lgame.out",
 		"/Users/apple/USACO/Chapter4/Section4.3/race3/race3.cpp",
 		"/Users/apple/USACO/Chapter4/Section4.3/race3/race3.out",
 		"/Users/apple/USACO/Chapter4/Section4.3/race3/race3.in",
@@ -250,18 +253,7 @@
 		"/Users/apple/USACO/Chapter2/Section2.2/subset/subset.cpp",
 		"/Users/apple/USACO/Chapter2/Section2.2/subset/subset.out",
 		"/Users/apple/USACO/Chapter2/Section2.2/subset/subset.in",
-		"/Users/apple/USACO/Chapter2/Section2.2/preface/preface.cpp",
-		"/Users/apple/USACO/Chapter2/Section2.1/hamming/hamming.cpp",
-		"/Users/apple/USACO/Chapter2/Section2.1/hamming/hamming.out",
-		"/Users/apple/USACO/Chapter2/Section2.1/holstein/holstein.cpp",
-		"/Users/apple/USACO/Chapter2/Section2.1/holstein/holstein.in",
-		"/Users/apple/USACO/Chapter2/Section2.1/holstein/holstein.out",
-		"/Users/apple/USACO/Chapter2/Section2.1/sort3/sort3.in",
-		"/Users/apple/USACO/Chapter2/Section2.1/sort3/sort3.out",
-		"/Users/apple/USACO/Chapter2/Section2.1/sort3/sort3.cpp",
-		"/Users/apple/USACO/Chapter2/Section2.1/frac1/frac1.cpp",
-		"/Users/apple/USACO/Chapter2/Section2.1/frac1/frac1.out",
-		"/Users/apple/USACO/Chapter2/castle/castle.out"
+		"/Users/apple/USACO/Chapter2/Section2.2/preface/preface.cpp"
 	],
 	"find":
 	{
@@ -280,6 +272,10 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"on_top",
+			"steps",
+			"st",
+			"s1",
 			"Trie",
 			"unavoidable",
 			"next",
@@ -322,6 +318,10 @@
 		"regex": false,
 		"replace_history":
 		[
+			"under",
+			"move",
+			"qu[0]",
+			"st",
 			"TrieNode",
 			"key",
 			"next_num",
@@ -363,19 +363,19 @@
 			[
 				{
 					"buffer": 0,
-					"file": "Chapter4/Section4.3/lgame/lgame.cpp",
+					"file": "Chapter4/Section4.4/frameup/frameup.cpp",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2881,
+						"buffer_size": 2098,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1898,
-								1898
+								258,
+								258
 							]
 						],
 						"settings":
@@ -384,38 +384,10 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 2941.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "Chapter4/Section4.3/lgame/lgame.out",
-					"semi_transient": true,
-					"settings":
-					{
-						"buffer_size": 137,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								137,
-								137
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Text/Plain text.tmLanguage"
-						},
-						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 0,
 					"type": "text"
 				}
 			]

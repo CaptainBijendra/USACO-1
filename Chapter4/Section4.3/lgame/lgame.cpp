@@ -25,6 +25,15 @@ struct Plan
 	bool is_pair;
 
 	Plan(){ is_pair=false; }
+
+	bool operator == (const Plan &b)
+	{
+		if(is_pair!=b.is_pair) return false;
+		if(s[0]!=b.s[0]) return false;
+		if(!is_pair) return true;
+		if(s[1]!=b.s[1]) return false;
+		return true;
+	}
 } best[200];
 
 class TrieNode
@@ -121,13 +130,15 @@ void dfs1(int cur,TrieNode *p,int sumv,string s,int max_len)
 
 bool cmp(const Plan &a,const Plan &b)
 {
-	int l=min(a.s[0].length(),b.s[0]length());
+	int tmp=a.s[0].compare(b.s[0]);
+	if(tmp<0) return true;
+	if(tmp>0) return false;
 
-	for(int i=0;i<l;i++)
-		if(a.s[0][i]<b.s[0][i])
-			return true;
+	if(!a.is_pair && b.is_pair) return true;
+	if(a.is_pair && !b.is_pair) return false;
 
-	if()
+	tmp=a.s[1].compare(b.s[1]);
+	return (tmp<0);
 }
 
 int main()
@@ -174,22 +185,32 @@ int main()
 	v['r']=v['t']=v['a']=v['n']=2;
 	v['o']=v['l']=3;
 	v['u']=v['d']=v['c']=4;
-	v['y']=v['p']=v['g']=v['h']=v['m']=5;
+	v['y']=v['p']=v['g']=v['h']=v['b']=v['m']=5;
 	v['w']=v['f']=v['k']=v['v']=6;
 	v['q']=v['j']=v['z']=v['x']=7;
 
 	for(int i=3;i<=min(7,(int)init.length());i++)
 		dfs1(0,&root,0,"",i);
 
-	sort(best+1,best+sum+1,cmp;
+	for(int i=1;i<=sum;i++)
+		if(best[i].is_pair)
+			if(best[i].s[0].compare(best[i].s[1])>0)
+				best[i].s[0].swap(best[i].s[1]);
+
+	sort(best+1,best+sum+1,cmp);
 
 	fout<<ans<<endl;
 	for(int i=1;i<=sum;i++)
+	{
+		if(i>1 && best[i]==best[i-1])
+			continue;
+
 		if(best[i].is_pair)
 			fout<<best[i].s[0]<<" "<<best[i].s[1]<<endl;
 		else
 			fout<<best[i].s[0]<<endl;
-
+	}
+	
 	fout.close();
 	return 0;
 }
