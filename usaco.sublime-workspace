@@ -63,8 +63,16 @@
 			"file": "Chapter5/fc/fc.cpp",
 			"settings":
 			{
-				"buffer_size": 402,
+				"buffer_size": 1675,
 				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "Chapter5/fc/fc.out",
+			"settings":
+			{
+				"buffer_size": 3,
 				"line_ending": "Unix"
 			}
 		}
@@ -118,16 +126,20 @@
 	"expanded_folders":
 	[
 		"/Users/apple/USACO",
-		"/Users/apple/USACO/Chapter2/Section2.4",
-		"/Users/apple/USACO/Chapter2/Section2.4/cowtour",
 		"/Users/apple/USACO/Chapter4",
 		"/Users/apple/USACO/Chapter4/Section4.4",
 		"/Users/apple/USACO/Chapter4/Section4.4/milk6",
 		"/Users/apple/USACO/Chapter5",
-		"/Users/apple/USACO/Chapter5/fc"
+		"/Users/apple/USACO/Chapter5/fc",
+		"/Users/apple/USACO/Chapter5/theme"
 	],
 	"file_history":
 	[
+		"/Users/apple/Desktop/USACO(Training)_backup_of_first_time_solutions/Section5.1/fc/fc.c",
+		"/Users/apple/USACO/Chapter5/theme/theme.cpp",
+		"/Users/apple/USACO/Chapter5/theme/theme.out",
+		"/Users/apple/USACO/Chapter5/theme/theme.in",
+		"/Users/apple/USACO/Chapter5/fc/fc.cpp",
 		"/Users/apple/USACO/Chapter2/Section2.4/cowtour/cowtour.cpp",
 		"/Users/apple/USACO/Chapter4/Section4.4/frameup/frameup.cpp",
 		"/Users/apple/USACO/Chapter4/Section4.4/frameup/frameup.in",
@@ -250,12 +262,7 @@
 		"/Users/apple/USACO/Chapter2/Section2.2/lamps/lamps.cpp",
 		"/Users/apple/USACO/Chapter2/Section2.2/lamps/lamps.in",
 		"/Users/apple/USACO/Chapter2/Section2.2/lamps/lamps.out",
-		"/Users/apple/USACO/Chapter2/Section2.2/runround/runround.cpp",
-		"/Users/apple/USACO/Chapter2/Section2.2/runround/runround.out",
-		"/Users/apple/USACO/Chapter2/Section2.2/runround/runround.in",
-		"/Users/apple/USACO/Chapter2/Section2.2/subset/subset.cpp",
-		"/Users/apple/USACO/Chapter2/Section2.2/subset/subset.out",
-		"/Users/apple/USACO/Chapter2/Section2.2/subset/subset.in"
+		"/Users/apple/USACO/Chapter2/Section2.2/runround/runround.cpp"
 	],
 	"find":
 	{
@@ -274,6 +281,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"spot",
+			"fc",
 			"on_top",
 			"steps",
 			"st",
@@ -320,6 +329,7 @@
 		"regex": false,
 		"replace_history":
 		[
+			"theme",
 			"under",
 			"move",
 			"qu[0]",
@@ -369,15 +379,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 402,
+						"buffer_size": 1675,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								325,
-								325
+								1647,
+								1647
 							]
 						],
 						"settings":
@@ -386,10 +396,38 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 1800.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "Chapter5/fc/fc.out",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 3,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
 					"type": "text"
 				}
 			]
@@ -484,7 +522,7 @@
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 167.0,
+	"side_bar_width": 184.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{

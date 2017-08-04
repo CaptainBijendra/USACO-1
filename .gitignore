@@ -1,7 +1,6 @@
 *.sublime-project
-*.dSYM/
+*.sublime-workspace
 
-*.in
-*.out
+*.dSYM/
 
 *.exe
