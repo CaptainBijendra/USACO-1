@@ -1,4 +1,5 @@
 *.sublime-project
+*.dSYM/
 
 *.in
 *.out
