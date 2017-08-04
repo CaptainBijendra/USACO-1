@@ -60,10 +60,10 @@
 	"buffers":
 	[
 		{
-			"file": "Chapter4/Section4.4/frameup/frameup.cpp",
+			"file": "Chapter5/fc/fc.cpp",
 			"settings":
 			{
-				"buffer_size": 2098,
+				"buffer_size": 402,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -118,14 +118,18 @@
 	"expanded_folders":
 	[
 		"/Users/apple/USACO",
-		"/Users/apple/USACO/Chapter1",
-		"/Users/apple/USACO/Chapter3",
+		"/Users/apple/USACO/Chapter2/Section2.4",
+		"/Users/apple/USACO/Chapter2/Section2.4/cowtour",
 		"/Users/apple/USACO/Chapter4",
 		"/Users/apple/USACO/Chapter4/Section4.4",
-		"/Users/apple/USACO/Chapter4/Section4.4/frameup"
+		"/Users/apple/USACO/Chapter4/Section4.4/milk6",
+		"/Users/apple/USACO/Chapter5",
+		"/Users/apple/USACO/Chapter5/fc"
 	],
 	"file_history":
 	[
+		"/Users/apple/USACO/Chapter2/Section2.4/cowtour/cowtour.cpp",
+		"/Users/apple/USACO/Chapter4/Section4.4/frameup/frameup.cpp",
 		"/Users/apple/USACO/Chapter4/Section4.4/frameup/frameup.in",
 		"/Users/apple/USACO/Chapter4/Section4.4/frameup/frameup.out",
 		"/Users/apple/USACO/Chapter4/Section4.4/milk6/milk6.cpp",
@@ -223,7 +227,6 @@
 		"/Users/apple/USACO/Chapter2/Section2.4/comehome/comehome.out",
 		"/Users/apple/USACO/Chapter2/Section2.4/comehome/comehome.cpp",
 		"/Users/apple/USACO/Chapter2/Section2.4/cowtour/cowtour.out",
-		"/Users/apple/USACO/Chapter2/Section2.4/cowtour/cowtour.cpp",
 		"/Users/apple/USACO/Chapter2/Section2.4/cowtour/cowtour.in",
 		"/Users/apple/USACO/Chapter2/Section2.4/maze1/maze1.cpp",
 		"/Users/apple/USACO/Chapter2/Section2.4/maze1/maze1.out",
@@ -252,8 +255,7 @@
 		"/Users/apple/USACO/Chapter2/Section2.2/runround/runround.in",
 		"/Users/apple/USACO/Chapter2/Section2.2/subset/subset.cpp",
 		"/Users/apple/USACO/Chapter2/Section2.2/subset/subset.out",
-		"/Users/apple/USACO/Chapter2/Section2.2/subset/subset.in",
-		"/Users/apple/USACO/Chapter2/Section2.2/preface/preface.cpp"
+		"/Users/apple/USACO/Chapter2/Section2.2/subset/subset.in"
 	],
 	"find":
 	{
@@ -363,19 +365,19 @@
 			[
 				{
 					"buffer": 0,
-					"file": "Chapter4/Section4.4/frameup/frameup.cpp",
+					"file": "Chapter5/fc/fc.cpp",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2098,
+						"buffer_size": 402,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								258,
-								258
+								325,
+								325
 							]
 						],
 						"settings":

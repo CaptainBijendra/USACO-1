@@ -1,0 +1,6 @@
+*.sublime-project
+
+*.in
+*.out
+
+*.exe
