@@ -60,19 +60,11 @@
 	"buffers":
 	[
 		{
-			"file": "Chapter5/fc/fc.cpp",
+			"file": "Chapter5/snail/snail.cpp",
 			"settings":
 			{
-				"buffer_size": 1675,
+				"buffer_size": 434,
 				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "Chapter5/fc/fc.out",
-			"settings":
-			{
-				"buffer_size": 3,
 				"line_ending": "Unix"
 			}
 		}
@@ -126,20 +118,23 @@
 	"expanded_folders":
 	[
 		"/Users/apple/USACO",
-		"/Users/apple/USACO/Chapter4",
-		"/Users/apple/USACO/Chapter4/Section4.4",
-		"/Users/apple/USACO/Chapter4/Section4.4/milk6",
+		"/Users/apple/USACO/Chapter2/Section2.4/cowtour",
 		"/Users/apple/USACO/Chapter5",
-		"/Users/apple/USACO/Chapter5/fc",
+		"/Users/apple/USACO/Chapter5/snail",
 		"/Users/apple/USACO/Chapter5/theme"
 	],
 	"file_history":
 	[
+		"/Users/apple/USACO/Chapter5/snail/snail.in",
+		"/Users/apple/USACO/Chapter5/starry/starry.cpp",
+		"/Users/apple/USACO/Chapter5/starry/starry.out",
+		"/Users/apple/USACO/Chapter5/fc/fc.cpp",
+		"/Users/apple/USACO/Chapter5/starry/starry.in",
+		"/Users/apple/USACO/Chapter5/fc/fc.out",
 		"/Users/apple/Desktop/USACO(Training)_backup_of_first_time_solutions/Section5.1/fc/fc.c",
 		"/Users/apple/USACO/Chapter5/theme/theme.cpp",
 		"/Users/apple/USACO/Chapter5/theme/theme.out",
 		"/Users/apple/USACO/Chapter5/theme/theme.in",
-		"/Users/apple/USACO/Chapter5/fc/fc.cpp",
 		"/Users/apple/USACO/Chapter2/Section2.4/cowtour/cowtour.cpp",
 		"/Users/apple/USACO/Chapter4/Section4.4/frameup/frameup.cpp",
 		"/Users/apple/USACO/Chapter4/Section4.4/frameup/frameup.in",
@@ -257,12 +252,7 @@
 		"/Users/apple/USACO/Chapter2/Section2.3/prefix/prefix.in",
 		"/Users/apple/USACO/Chapter2/Section2.3/zerosum/zerosum.out",
 		"/Users/apple/USACO/Chapter2/Section2.3/zerosum/zerosum.in",
-		"/Users/apple/USACO/Chapter2/Section2.3/nocows/nocows.cpp",
-		"/Users/apple/USACO/Chapter2/Section2.3/prefix/prefix.cpp",
-		"/Users/apple/USACO/Chapter2/Section2.2/lamps/lamps.cpp",
-		"/Users/apple/USACO/Chapter2/Section2.2/lamps/lamps.in",
-		"/Users/apple/USACO/Chapter2/Section2.2/lamps/lamps.out",
-		"/Users/apple/USACO/Chapter2/Section2.2/runround/runround.cpp"
+		"/Users/apple/USACO/Chapter2/Section2.3/nocows/nocows.cpp"
 	],
 	"find":
 	{
@@ -281,6 +271,9 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"starry",
+			"18",
+			"fc",
 			"spot",
 			"fc",
 			"on_top",
@@ -329,6 +322,9 @@
 		"regex": false,
 		"replace_history":
 		[
+			"snail",
+			"16",
+			"starry",
 			"theme",
 			"under",
 			"move",
@@ -375,19 +371,19 @@
 			[
 				{
 					"buffer": 0,
-					"file": "Chapter5/fc/fc.cpp",
+					"file": "Chapter5/snail/snail.cpp",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1675,
+						"buffer_size": 434,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1647,
-								1647
+								386,
+								386
 							]
 						],
 						"settings":
@@ -396,38 +392,10 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 1800.0,
+						"translation.y": 109.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "Chapter5/fc/fc.out",
-					"semi_transient": true,
-					"settings":
-					{
-						"buffer_size": 3,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Text/Plain text.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
 					"type": "text"
 				}
 			]
