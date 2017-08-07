@@ -60,10 +60,10 @@
 	"buffers":
 	[
 		{
-			"file": "Chapter5/snail/snail.cpp",
+			"file": "Chapter5/milk4/milk4.in",
 			"settings":
 			{
-				"buffer_size": 434,
+				"buffer_size": 11,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -118,13 +118,24 @@
 	"expanded_folders":
 	[
 		"/Users/apple/USACO",
-		"/Users/apple/USACO/Chapter2/Section2.4/cowtour",
 		"/Users/apple/USACO/Chapter5",
-		"/Users/apple/USACO/Chapter5/snail",
-		"/Users/apple/USACO/Chapter5/theme"
+		"/Users/apple/USACO/Chapter5/milk4"
 	],
 	"file_history":
 	[
+		"/Users/apple/USACO/Chapter5/window/window.cpp",
+		"/Users/apple/USACO/Chapter5/window/window.out",
+		"/Users/apple/USACO/Chapter5/window/window.in",
+		"/Users/apple/Desktop/USACO(Training)_backup_of_first_time_solutions/Section5.3/window/window.c",
+		"/Users/apple/USACO/Chapter5/schlnet/schlnet.cpp",
+		"/Users/apple/USACO/Chapter5/schlnet/schlnet_2.cpp",
+		"/Users/apple/USACO/Chapter5/schlnet/schlnet.in",
+		"/Users/apple/USACO/Chapter5/schlnet/schlnet.out",
+		"/Users/apple/USACO/Chapter5/bigbrn/bigbrn.in",
+		"/Users/apple/USACO/Chapter5/bigbrn/bigbrn.out",
+		"/Users/apple/USACO/Chapter5/bigbrn/bigbrn.cpp",
+		"/Users/apple/USACO/Chapter5/snail/snail.cpp",
+		"/Users/apple/USACO/Chapter5/snail/snail.out",
 		"/Users/apple/USACO/Chapter5/snail/snail.in",
 		"/Users/apple/USACO/Chapter5/starry/starry.cpp",
 		"/Users/apple/USACO/Chapter5/starry/starry.out",
@@ -239,20 +250,7 @@
 		"/Users/apple/USACO/Chapter2/Section2.4/maze1/maze1.out",
 		"/Users/apple/USACO/Chapter2/Section2.4/ttwo/ttwo.out",
 		"/Users/apple/USACO/Chapter2/Section2.4/ttwo/ttwo.in",
-		"/Users/apple/USACO/Chapter2/Section2.4/ttwo/ttwo.cpp",
-		"/Users/apple/USACO/Chapter2/Section2.3/concom/concom.cpp",
-		"/Users/apple/USACO/Chapter2/Section2.3/concom/concom.in",
-		"/Users/apple/USACO/Chapter2/Section2.3/concom/concom.out",
-		"/Users/apple/USACO/Chapter2/Section2.3/money/money.cpp",
-		"/Users/apple/USACO/Chapter2/Section2.3/money/money.in",
-		"/Users/apple/USACO/Chapter2/Section2.3/money/money.out",
-		"/Users/apple/USACO/Chapter2/Section2.3/zerosum/zerosum.cpp",
-		"/Users/apple/USACO/Chapter2/Section2.3/prefix/prefix_2.cpp",
-		"/Users/apple/USACO/Chapter2/Section2.3/prefix/prefix.out",
-		"/Users/apple/USACO/Chapter2/Section2.3/prefix/prefix.in",
-		"/Users/apple/USACO/Chapter2/Section2.3/zerosum/zerosum.out",
-		"/Users/apple/USACO/Chapter2/Section2.3/zerosum/zerosum.in",
-		"/Users/apple/USACO/Chapter2/Section2.3/nocows/nocows.cpp"
+		"/Users/apple/USACO/Chapter2/Section2.4/ttwo/ttwo.cpp"
 	],
 	"find":
 	{
@@ -271,6 +269,16 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"remove",
+			"area",
+			"size",
+			".",
+			"schlnet",
+			"vis",
+			"index",
+			"bigbrn",
+			"snail",
+			"grid",
 			"starry",
 			"18",
 			"fc",
@@ -322,6 +330,13 @@
 		"regex": false,
 		"replace_history":
 		[
+			"area",
+			"->",
+			"window",
+			"idx",
+			"schlnet",
+			"bigbrn",
+			"barrier",
 			"snail",
 			"16",
 			"starry",
@@ -371,28 +386,27 @@
 			[
 				{
 					"buffer": 0,
-					"file": "Chapter5/snail/snail.cpp",
+					"file": "Chapter5/milk4/milk4.in",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 434,
+						"buffer_size": 11,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								386,
-								386
+								11,
+								11
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/C++/C++.sublime-syntax",
-							"translate_tabs_to_spaces": false
+							"syntax": "Packages/Text/Plain text.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 109.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
