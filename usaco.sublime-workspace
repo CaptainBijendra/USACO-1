@@ -60,10 +60,10 @@
 	"buffers":
 	[
 		{
-			"file": "Chapter5/milk4/milk4.in",
+			"file": "Chapter5/telecow/telecow.cpp",
 			"settings":
 			{
-				"buffer_size": 11,
+				"buffer_size": 319,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -119,10 +119,17 @@
 	[
 		"/Users/apple/USACO",
 		"/Users/apple/USACO/Chapter5",
-		"/Users/apple/USACO/Chapter5/milk4"
+		"/Users/apple/USACO/Chapter5/telecow"
 	],
 	"file_history":
 	[
+		"/Users/apple/USACO/Chapter5/tour/tour.cpp",
+		"/Users/apple/USACO/Chapter5/tour/tour.out",
+		"/Users/apple/Desktop/USACO(Training)_backup_of_first_time_solutions/Section5.4/tour/tour.c",
+		"/Users/apple/USACO/Chapter5/milk4/milk4.cpp",
+		"/Users/apple/USACO/Chapter5/milk4/milk4.in",
+		"/Users/apple/USACO/Chapter5/milk4/milk4.out",
+		"/Users/apple/Desktop/USACO(Training)_backup_of_first_time_solutions/Section5.3/milk4/milk4.c",
 		"/Users/apple/USACO/Chapter5/window/window.cpp",
 		"/Users/apple/USACO/Chapter5/window/window.out",
 		"/Users/apple/USACO/Chapter5/window/window.in",
@@ -243,14 +250,7 @@
 		"/Users/apple/USACO/Chapter2/Section2.4/fracdec/fracdec.out",
 		"/Users/apple/USACO/Chapter2/Section2.4/fracdec/fracdec.cpp",
 		"/Users/apple/USACO/Chapter2/Section2.4/comehome/comehome.out",
-		"/Users/apple/USACO/Chapter2/Section2.4/comehome/comehome.cpp",
-		"/Users/apple/USACO/Chapter2/Section2.4/cowtour/cowtour.out",
-		"/Users/apple/USACO/Chapter2/Section2.4/cowtour/cowtour.in",
-		"/Users/apple/USACO/Chapter2/Section2.4/maze1/maze1.cpp",
-		"/Users/apple/USACO/Chapter2/Section2.4/maze1/maze1.out",
-		"/Users/apple/USACO/Chapter2/Section2.4/ttwo/ttwo.out",
-		"/Users/apple/USACO/Chapter2/Section2.4/ttwo/ttwo.in",
-		"/Users/apple/USACO/Chapter2/Section2.4/ttwo/ttwo.cpp"
+		"/Users/apple/USACO/Chapter2/Section2.4/comehome/comehome.cpp"
 	],
 	"find":
 	{
@@ -269,6 +269,10 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"tour",
+			"map",
+			"milk4",
+			"starry",
 			"remove",
 			"area",
 			"size",
@@ -330,6 +334,10 @@
 		"regex": false,
 		"replace_history":
 		[
+			"telecow",
+			"g",
+			"tour",
+			"milk4",
 			"area",
 			"->",
 			"window",
@@ -386,24 +394,25 @@
 			[
 				{
 					"buffer": 0,
-					"file": "Chapter5/milk4/milk4.in",
+					"file": "Chapter5/telecow/telecow.cpp",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 11,
+						"buffer_size": 319,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								11,
-								11
+								258,
+								258
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Text/Plain text.tmLanguage"
+							"syntax": "Packages/C++/C++.sublime-syntax",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
