@@ -63,7 +63,7 @@
 			"file": "Chapter5/telecow/telecow.cpp",
 			"settings":
 			{
-				"buffer_size": 319,
+				"buffer_size": 1988,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -123,6 +123,9 @@
 	],
 	"file_history":
 	[
+		"/Users/apple/USACO/Chapter5/telecow/telecow.in",
+		"/Users/apple/USACO/Chapter5/telecow/telecow.out",
+		"/Users/apple/Desktop/USACO(Training)_backup_of_first_time_solutions/Section5.4/telecow/telecow.c",
 		"/Users/apple/USACO/Chapter5/tour/tour.cpp",
 		"/Users/apple/USACO/Chapter5/tour/tour.out",
 		"/Users/apple/Desktop/USACO(Training)_backup_of_first_time_solutions/Section5.4/tour/tour.c",
@@ -247,10 +250,7 @@
 		"/Users/apple/USACO/Chapter3/Section3.1/agrinet/agrinet.in",
 		"/Users/apple/USACO/Chapter2/Section2.4/fracdec/fracdec_2.cpp",
 		"/Users/apple/USACO/Chapter2/Section2.4/fracdec/fracdec.in",
-		"/Users/apple/USACO/Chapter2/Section2.4/fracdec/fracdec.out",
-		"/Users/apple/USACO/Chapter2/Section2.4/fracdec/fracdec.cpp",
-		"/Users/apple/USACO/Chapter2/Section2.4/comehome/comehome.out",
-		"/Users/apple/USACO/Chapter2/Section2.4/comehome/comehome.cpp"
+		"/Users/apple/USACO/Chapter2/Section2.4/fracdec/fracdec.out"
 	],
 	"find":
 	{
@@ -269,6 +269,11 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"top",
+			"id",
+			"(n<<1)",
+			"n<<1",
+			"idx",
 			"tour",
 			"map",
 			"milk4",
@@ -334,6 +339,7 @@
 		"regex": false,
 		"replace_history":
 		[
+			"tot",
 			"telecow",
 			"g",
 			"tour",
@@ -398,15 +404,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 319,
+						"buffer_size": 1988,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								258,
-								258
+								1856,
+								1856
 							]
 						],
 						"settings":
@@ -415,7 +421,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 2917.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
