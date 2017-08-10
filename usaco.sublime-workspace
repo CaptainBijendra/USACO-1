@@ -60,10 +60,10 @@
 	"buffers":
 	[
 		{
-			"file": "Chapter5/telecow/telecow.cpp",
+			"file": "Chapter5/picture/picture.cpp",
 			"settings":
 			{
-				"buffer_size": 1988,
+				"buffer_size": 1006,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -119,10 +119,24 @@
 	[
 		"/Users/apple/USACO",
 		"/Users/apple/USACO/Chapter5",
-		"/Users/apple/USACO/Chapter5/telecow"
+		"/Users/apple/USACO/Chapter5/picture"
 	],
 	"file_history":
 	[
+		"/Users/apple/USACO/Chapter5/twofive/twofive.out",
+		"/Users/apple/USACO/Chapter5/twofive/twofive.in",
+		"/Users/apple/USACO/Chapter5/twofive/twofive.cpp",
+		"/Users/apple/USACO/Chapter5/hidden/hidden.cpp",
+		"/Users/apple/USACO/Chapter5/hidden/hidden.in",
+		"/Users/apple/USACO/Chapter5/hidden/hidden.out",
+		"/Users/apple/USACO/Chapter5/picture/picture.cpp",
+		"/Users/apple/USACO/Chapter5/picture/picture.in",
+		"/Users/apple/USACO/Chapter5/charrec/font.in",
+		"/Users/apple/USACO/Chapter5/charrec/charrec.in",
+		"/Users/apple/USACO/Chapter5/charrec/charrec.out",
+		"/Users/apple/USACO/Chapter5/charrec/charrec.cpp",
+		"/Users/apple/Desktop/USACO(Training)_backup_of_first_time_solutions/Section5.4/charrec/charrec.c",
+		"/Users/apple/USACO/Chapter5/telecow/telecow.cpp",
 		"/Users/apple/USACO/Chapter5/telecow/telecow.in",
 		"/Users/apple/USACO/Chapter5/telecow/telecow.out",
 		"/Users/apple/Desktop/USACO(Training)_backup_of_first_time_solutions/Section5.4/telecow/telecow.c",
@@ -236,21 +250,7 @@
 		"/Users/apple/USACO/Chapter3/Section3.1/fact4/fact4.cpp",
 		"/Users/apple/USACO/Chapter3/Section3.1/fact4/fact4.out",
 		"/Users/apple/USACO/Chapter3/Section3.1/stamps/stamps.cpp",
-		"/Users/apple/USACO/Chapter3/Section3.1/stamps/stamps.out",
-		"/Users/apple/USACO/Chapter3/Section3.1/contact/contact.cpp",
-		"/Users/apple/USACO/Chapter3/Section3.1/contact/contact.in",
-		"/Users/apple/USACO/Chapter3/Section3.1/contact/contact.out",
-		"/Users/apple/USACO/Chapter3/Section3.1/humble/humble.cpp",
-		"/Users/apple/Desktop/USACO(Training)_backup_of_first_time_solutions/Section3.1/humble/humble.c",
-		"/Users/apple/USACO/Chapter3/Section3.1/humble/humble.out",
-		"/Users/apple/USACO/Chapter3/Section3.1/inflate/inflate.in",
-		"/Users/apple/USACO/Chapter3/Section3.1/inflate/inflate.out",
-		"/Users/apple/USACO/Chapter3/Section3.1/inflate/inflate.cpp",
-		"/Users/apple/USACO/Chapter3/Section3.1/agrinet/agrinet.cpp",
-		"/Users/apple/USACO/Chapter3/Section3.1/agrinet/agrinet.in",
-		"/Users/apple/USACO/Chapter2/Section2.4/fracdec/fracdec_2.cpp",
-		"/Users/apple/USACO/Chapter2/Section2.4/fracdec/fracdec.in",
-		"/Users/apple/USACO/Chapter2/Section2.4/fracdec/fracdec.out"
+		"/Users/apple/USACO/Chapter3/Section3.1/stamps/stamps.out"
 	],
 	"find":
 	{
@@ -269,6 +269,14 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"25",
+			"hidden",
+			"picture",
+			"font",
+			"ans[0]",
+			"min",
+			"ans",
+			"telecow",
 			"top",
 			"id",
 			"(n<<1)",
@@ -340,6 +348,13 @@
 		"replace_history":
 		[
 			"tot",
+			"twofive",
+			"hidden",
+			"picture",
+			"count",
+			"best_len",
+			"charrec",
+			"tot",
 			"telecow",
 			"g",
 			"tour",
@@ -400,28 +415,27 @@
 			[
 				{
 					"buffer": 0,
-					"file": "Chapter5/telecow/telecow.cpp",
+					"file": "Chapter5/picture/picture.cpp",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1988,
+						"buffer_size": 1006,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1856,
-								1856
+								962,
+								962
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/C++/C++.sublime-syntax",
-							"translate_tabs_to_spaces": false
+							"syntax": "Packages/C++/C++.sublime-syntax"
 						},
 						"translation.x": 0.0,
-						"translation.y": 2917.0,
+						"translation.y": 842.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
