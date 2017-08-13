@@ -5,7 +5,7 @@
 		[
 			[
 				"be",
-				"best_len"
+				"best"
 			],
 			[
 				"p",
@@ -59,15 +59,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "Chapter5/picture/picture.cpp",
-			"settings":
-			{
-				"buffer_size": 1006,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -118,19 +109,19 @@
 	"expanded_folders":
 	[
 		"/Users/apple/USACO",
-		"/Users/apple/USACO/Chapter5",
-		"/Users/apple/USACO/Chapter5/picture"
+		"/Users/apple/USACO/Chapter5"
 	],
 	"file_history":
 	[
+		"/Users/apple/USACO/Chapter5/picture/picture.cpp",
+		"/Users/apple/USACO/Chapter5/picture/picture.out",
+		"/Users/apple/USACO/Chapter5/picture/picture.in",
 		"/Users/apple/USACO/Chapter5/twofive/twofive.out",
 		"/Users/apple/USACO/Chapter5/twofive/twofive.in",
 		"/Users/apple/USACO/Chapter5/twofive/twofive.cpp",
 		"/Users/apple/USACO/Chapter5/hidden/hidden.cpp",
 		"/Users/apple/USACO/Chapter5/hidden/hidden.in",
 		"/Users/apple/USACO/Chapter5/hidden/hidden.out",
-		"/Users/apple/USACO/Chapter5/picture/picture.cpp",
-		"/Users/apple/USACO/Chapter5/picture/picture.in",
 		"/Users/apple/USACO/Chapter5/charrec/font.in",
 		"/Users/apple/USACO/Chapter5/charrec/charrec.in",
 		"/Users/apple/USACO/Chapter5/charrec/charrec.out",
@@ -249,8 +240,7 @@
 		"/Users/apple/USACO/Chapter3/Section3.2/kimbits/kimbits.out",
 		"/Users/apple/USACO/Chapter3/Section3.1/fact4/fact4.cpp",
 		"/Users/apple/USACO/Chapter3/Section3.1/fact4/fact4.out",
-		"/Users/apple/USACO/Chapter3/Section3.1/stamps/stamps.cpp",
-		"/Users/apple/USACO/Chapter3/Section3.1/stamps/stamps.out"
+		"/Users/apple/USACO/Chapter3/Section3.1/stamps/stamps.cpp"
 	],
 	"find":
 	{
@@ -269,6 +259,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"Segment",
 			"25",
 			"hidden",
 			"picture",
@@ -347,6 +338,7 @@
 		"regex": false,
 		"replace_history":
 		[
+			"segment",
 			"tot",
 			"twofive",
 			"hidden",
@@ -410,37 +402,8 @@
 	"groups":
 	[
 		{
-			"selected": 0,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "Chapter5/picture/picture.cpp",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1006,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								962,
-								962
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/C++/C++.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 842.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				}
 			]
 		}
 	],
