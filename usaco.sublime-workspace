@@ -59,6 +59,15 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "Chapter6/calfflac/calfflac.cpp",
+			"settings":
+			{
+				"buffer_size": 290,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -109,10 +118,23 @@
 	"expanded_folders":
 	[
 		"/Users/apple/USACO",
-		"/Users/apple/USACO/Chapter5"
+		"/Users/apple/USACO/Chapter5/Section5.5/hidden",
+		"/Users/apple/USACO/Chapter6",
+		"/Users/apple/USACO/Chapter6/calfflac"
 	],
 	"file_history":
 	[
+		"/Users/apple/USACO/Chapter6/vans/vans.cpp",
+		"/Users/apple/USACO/Chapter6/vans/vans.out",
+		"/Users/apple/USACO/Chapter6/vans/vans.in",
+		"/Users/apple/USACO/Chapter6/cowxor/cowxor.cpp",
+		"/Users/apple/USACO/Chapter6/cowxor/cowxor.in",
+		"/Users/apple/Desktop/USACO(Training)_backup_of_first_time_solutions/Section6.1/vans/vans.c",
+		"/Users/apple/USACO/Chapter6/cowxor/cowxor.out",
+		"/Users/apple/USACO/Chapter6/rectbarn/rectbarn.cpp",
+		"/Users/apple/USACO/Chapter6/rectbarn/rectbarn.out",
+		"/Users/apple/Desktop/USACO(Training)_backup_of_first_time_solutions/Section6.1/rectbarn/rectbarn.c",
+		"/Users/apple/USACO/Chapter6/rectbarn/rectbarn.in",
 		"/Users/apple/USACO/Chapter5/picture/picture.cpp",
 		"/Users/apple/USACO/Chapter5/picture/picture.out",
 		"/Users/apple/USACO/Chapter5/picture/picture.in",
@@ -229,18 +251,7 @@
 		"/Users/apple/USACO/Chapter3/Section3.2/msquare/msquare.in",
 		"/Users/apple/USACO/Chapter3/Section3.2/msquare/msquare.out",
 		"/Users/apple/Desktop/USACO(Training)_backup_of_first_time_solutions/Section3.2/msquare/stand/msquare.cpp",
-		"/Users/apple/USACO/Chapter3/Section3.2/ratios/ratios.cpp",
-		"/Users/apple/USACO/Chapter3/Section3.2/ratios/ratios.in",
-		"/Users/apple/USACO/Chapter3/Section3.2/ratios/ratios.out",
-		"/Users/apple/USACO/Chapter3/Section3.2/spin/spin.cpp",
-		"/Users/apple/USACO/Chapter3/Section3.2/spin/spin.out",
-		"/Users/apple/USACO/Chapter3/Section3.2/kimbits/kimbits.cpp",
-		"/Users/apple/USACO/Chapter3/Section3.2/spin/spin.in",
-		"/Users/apple/USACO/Chapter3/Section3.2/kimbits/kimbits.in",
-		"/Users/apple/USACO/Chapter3/Section3.2/kimbits/kimbits.out",
-		"/Users/apple/USACO/Chapter3/Section3.1/fact4/fact4.cpp",
-		"/Users/apple/USACO/Chapter3/Section3.1/fact4/fact4.out",
-		"/Users/apple/USACO/Chapter3/Section3.1/stamps/stamps.cpp"
+		"/Users/apple/USACO/Chapter3/Section3.2/ratios/ratios.cpp"
 	],
 	"find":
 	{
@@ -259,6 +270,14 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"vans",
+			"cowxor",
+			"len",
+			"rectbarn",
+			"left",
+			"right",
+			"up",
+			"starry",
 			"Segment",
 			"25",
 			"hidden",
@@ -338,6 +357,14 @@
 		"regex": false,
 		"replace_history":
 		[
+			"calfflac",
+			"vans",
+			"max_len",
+			"cowxor",
+			"le",
+			"ri",
+			"height",
+			"rectbarn",
 			"segment",
 			"tot",
 			"twofive",
@@ -402,8 +429,38 @@
 	"groups":
 	[
 		{
+			"selected": 0,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "Chapter6/calfflac/calfflac.cpp",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 290,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								144,
+								144
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
 			]
 		}
 	],
