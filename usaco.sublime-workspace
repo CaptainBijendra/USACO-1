@@ -60,11 +60,28 @@
 	"buffers":
 	[
 		{
-			"file": "Chapter6/calfflac/calfflac.cpp",
+			"file": "Chapter6/cryptcow/cryptcow.cpp",
 			"settings":
 			{
-				"buffer_size": 290,
+				"buffer_size": 1857,
 				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "Chapter6/cryptcow/cryptcow.in",
+			"settings":
+			{
+				"buffer_size": 54,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "Chapter6/cryptcow/cryptcow.out",
+			"settings":
+			{
+				"buffer_size": 4,
 				"line_ending": "Unix"
 			}
 		}
@@ -118,12 +135,24 @@
 	"expanded_folders":
 	[
 		"/Users/apple/USACO",
-		"/Users/apple/USACO/Chapter5/Section5.5/hidden",
 		"/Users/apple/USACO/Chapter6",
-		"/Users/apple/USACO/Chapter6/calfflac"
+		"/Users/apple/USACO/Chapter6/cryptcow"
 	],
 	"file_history":
 	[
+		"/Users/apple/USACO/Chapter6/cryptcow/cryptcow.out",
+		"/Users/apple/USACO/Chapter6/cowcycle/cowcycle.cpp",
+		"/Users/apple/USACO/Chapter6/cowcycle/cowcycle.in",
+		"/Users/apple/USACO/Chapter6/cowcycle/cowcycle.out",
+		"/Users/apple/USACO/Chapter6/rect1/rect1.cpp",
+		"/Users/apple/USACO/Chapter6/rect1/rect1.out",
+		"/Users/apple/USACO/Chapter6/rect1/rect1.in",
+		"/Users/apple/USACO/Chapter6/packrec/packrec.out",
+		"/Users/apple/USACO/Chapter6/packrec/packrec.cpp",
+		"/Users/apple/USACO/Chapter6/calfflac/calfflac.cpp",
+		"/Users/apple/USACO/Chapter6/calfflac/calfflac.in",
+		"/Users/apple/USACO/Chapter6/calfflac/calfflac.out",
+		"/Users/apple/USACO/Chapter6/packrec/packrec.in",
 		"/Users/apple/USACO/Chapter6/vans/vans.cpp",
 		"/Users/apple/USACO/Chapter6/vans/vans.out",
 		"/Users/apple/USACO/Chapter6/vans/vans.in",
@@ -238,20 +267,7 @@
 		"/Users/apple/USACO/Chapter3/Section3.3/camelot/camelot.cpp",
 		"/Users/apple/USACO/Chapter3/Section3.3/camelot/camelot.in",
 		"/Users/apple/USACO/Chapter3/Section3.3/camelot/camelot.out",
-		"/Users/apple/USACO/Chapter3/Section3.3/shopping/shopping.cpp",
-		"/Users/apple/USACO/Chapter3/Section3.3/shopping/shopping.out",
-		"/Users/apple/USACO/Chapter3/Section3.3/shopping/shopping.in",
-		"/Users/apple/USACO/Chapter3/Section3.3/fence/fence.cpp",
-		"/Users/apple/USACO/Chapter3/Section3.3/fence/fence.in",
-		"/Users/apple/USACO/Chapter3/Section3.3/fence/fence.out",
-		"/Users/apple/USACO/Chapter3/Section3.2/butter/butter.cpp",
-		"/Users/apple/USACO/Chapter3/Section3.2/butter/butter.in",
-		"/Users/apple/USACO/Chapter3/Section3.2/butter/butter.out",
-		"/Users/apple/USACO/Chapter3/Section3.2/msquare/msquare.cpp",
-		"/Users/apple/USACO/Chapter3/Section3.2/msquare/msquare.in",
-		"/Users/apple/USACO/Chapter3/Section3.2/msquare/msquare.out",
-		"/Users/apple/Desktop/USACO(Training)_backup_of_first_time_solutions/Section3.2/msquare/stand/msquare.cpp",
-		"/Users/apple/USACO/Chapter3/Section3.2/ratios/ratios.cpp"
+		"/Users/apple/USACO/Chapter3/Section3.3/shopping/shopping.cpp"
 	],
 	"find":
 	{
@@ -270,6 +286,18 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"count",
+			"cowcycle",
+			"rect1",
+			"packrec",
+			"rec",
+			"dfs1",
+			"calfflac",
+			"Ngp",
+			"pg",
+			"gp",
+			"is_same",
+			"character",
 			"vans",
 			"cowxor",
 			"len",
@@ -357,6 +385,15 @@
 		"regex": false,
 		"replace_history":
 		[
+			"s_count",
+			"cryptcow",
+			"cowcycle",
+			"rect1",
+			"backup",
+			"dfs",
+			"packrec",
+			"same_letter",
+			"letter",
 			"calfflac",
 			"vans",
 			"max_len",
@@ -434,19 +471,19 @@
 			[
 				{
 					"buffer": 0,
-					"file": "Chapter6/calfflac/calfflac.cpp",
+					"file": "Chapter6/cryptcow/cryptcow.cpp",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 290,
+						"buffer_size": 1857,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								144,
-								144
+								580,
+								580
 							]
 						],
 						"settings":
@@ -455,10 +492,66 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 2489.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "Chapter6/cryptcow/cryptcow.in",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 54,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								54,
+								54
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "Chapter6/cryptcow/cryptcow.out",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
 					"type": "text"
 				}
 			]
