@@ -60,28 +60,11 @@
 	"buffers":
 	[
 		{
-			"file": "Chapter6/cryptcow/cryptcow.cpp",
+			"file": "Chapter6/prime3/prime3.cpp",
 			"settings":
 			{
-				"buffer_size": 1857,
+				"buffer_size": 2061,
 				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "Chapter6/cryptcow/cryptcow.in",
-			"settings":
-			{
-				"buffer_size": 54,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "Chapter6/cryptcow/cryptcow.out",
-			"settings":
-			{
-				"buffer_size": 4,
 				"line_ending": "Unix"
 			}
 		}
@@ -136,11 +119,19 @@
 	[
 		"/Users/apple/USACO",
 		"/Users/apple/USACO/Chapter6",
-		"/Users/apple/USACO/Chapter6/cryptcow"
+		"/Users/apple/USACO/Chapter6/prime3"
 	],
 	"file_history":
 	[
+		"/Users/apple/USACO/Chapter6/wissqu/wissqu.out",
+		"/Users/apple/USACO/Chapter6/wissqu/wissqu.cpp",
+		"/Users/apple/USACO/Chapter6/fence8/fence8.cpp",
+		"/Users/apple/USACO/Chapter6/fence8/fence8.out",
+		"/Users/apple/USACO/Chapter6/fence8/fence8.in",
+		"/Users/apple/USACO/Chapter6/cryptcow/cryptcow.cpp",
+		"/Users/apple/Desktop/USACO(Training)_backup_of_first_time_solutions/Section4.1/cryptcow/cryptcow.c",
 		"/Users/apple/USACO/Chapter6/cryptcow/cryptcow.out",
+		"/Users/apple/USACO/Chapter6/cryptcow/cryptcow.in",
 		"/Users/apple/USACO/Chapter6/cowcycle/cowcycle.cpp",
 		"/Users/apple/USACO/Chapter6/cowcycle/cowcycle.in",
 		"/Users/apple/USACO/Chapter6/cowcycle/cowcycle.out",
@@ -259,15 +250,7 @@
 		"/Users/apple/USACO/Chapter3/Section3.4/heritage/heritage.out",
 		"/Users/apple/USACO/Chapter3/Section3.3/game1/game1.cpp",
 		"/Users/apple/USACO/Chapter3/Section3.4/heritage/heritage.in",
-		"/Users/apple/USACO/Chapter3/Section3.3/game1/game1.in",
-		"/Users/apple/USACO/Chapter3/Section3.3/game1/game1.out",
-		"/Users/apple/USACO/Chapter3/Section3.3/range/range.cpp",
-		"/Users/apple/USACO/Chapter3/Section3.3/range/range.out",
-		"/Users/apple/USACO/Chapter3/Section3.3/range/range.in",
-		"/Users/apple/USACO/Chapter3/Section3.3/camelot/camelot.cpp",
-		"/Users/apple/USACO/Chapter3/Section3.3/camelot/camelot.in",
-		"/Users/apple/USACO/Chapter3/Section3.3/camelot/camelot.out",
-		"/Users/apple/USACO/Chapter3/Section3.3/shopping/shopping.cpp"
+		"/Users/apple/USACO/Chapter3/Section3.3/game1/game1.in"
 	],
 	"find":
 	{
@@ -286,6 +269,19 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"5",
+			"4",
+			"3",
+			"2",
+			"1",
+			"wissqu",
+			"fence8",
+			"depth",
+			"rail",
+			"board",
+			"cur",
+			"max",
+			"cryptcow",
 			"count",
 			"cowcycle",
 			"rect1",
@@ -385,6 +381,18 @@
 		"regex": false,
 		"replace_history":
 		[
+			"4",
+			"3",
+			"2",
+			"1",
+			"0",
+			"prime3",
+			"wissqu",
+			"cur_r",
+			"r",
+			"b",
+			"depth",
+			"fence8",
 			"s_count",
 			"cryptcow",
 			"cowcycle",
@@ -471,19 +479,19 @@
 			[
 				{
 					"buffer": 0,
-					"file": "Chapter6/cryptcow/cryptcow.cpp",
+					"file": "Chapter6/prime3/prime3.cpp",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1857,
+						"buffer_size": 2061,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								580,
-								580
+								1795,
+								1795
 							]
 						],
 						"settings":
@@ -492,66 +500,10 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 2489.0,
+						"translation.y": 1564.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "Chapter6/cryptcow/cryptcow.in",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 54,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								54,
-								54
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Text/Plain text.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "Chapter6/cryptcow/cryptcow.out",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 4,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Text/Plain text.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
 					"type": "text"
 				}
 			]
@@ -642,7 +594,7 @@
 	"settings":
 	{
 	},
-	"show_minimap": true,
+	"show_minimap": false,
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
