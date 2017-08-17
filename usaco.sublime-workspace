@@ -60,11 +60,10 @@
 	"buffers":
 	[
 		{
-			"file": "Chapter6/prime3/prime3.cpp",
+			"file": "Chapter6/fence8/fence8.cpp",
 			"settings":
 			{
-				"buffer_size": 2061,
-				"encoding": "UTF-8",
+				"buffer_size": 1478,
 				"line_ending": "Unix"
 			}
 		}
@@ -119,10 +118,14 @@
 	[
 		"/Users/apple/USACO",
 		"/Users/apple/USACO/Chapter6",
-		"/Users/apple/USACO/Chapter6/prime3"
+		"/Users/apple/USACO/Chapter6/fence8"
 	],
 	"file_history":
 	[
+		"/Users/apple/USACO/Chapter6/prime3/prime3.out",
+		"/Users/apple/USACO/Chapter6/prime3/prime3.in",
+		"/Users/apple/Desktop/untitled.cpp",
+		"/Users/apple/USACO/Chapter6/prime3/prime3.cpp",
 		"/Users/apple/USACO/Chapter6/wissqu/wissqu.out",
 		"/Users/apple/USACO/Chapter6/wissqu/wissqu.cpp",
 		"/Users/apple/USACO/Chapter6/fence8/fence8.cpp",
@@ -246,11 +249,7 @@
 		"/Users/apple/USACO/Chapter3/Section3.4/rockers/rockers.out",
 		"/Users/apple/USACO/Chapter3/Section3.4/rockers/rockers.cpp",
 		"/Users/apple/USACO/Chapter3/Section3.4/rockers/rockers.in",
-		"/Users/apple/USACO/Chapter3/Section3.4/heritage/heritage.cpp",
-		"/Users/apple/USACO/Chapter3/Section3.4/heritage/heritage.out",
-		"/Users/apple/USACO/Chapter3/Section3.3/game1/game1.cpp",
-		"/Users/apple/USACO/Chapter3/Section3.4/heritage/heritage.in",
-		"/Users/apple/USACO/Chapter3/Section3.3/game1/game1.in"
+		"/Users/apple/USACO/Chapter3/Section3.4/heritage/heritage.cpp"
 	],
 	"find":
 	{
@@ -269,6 +268,16 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"hash2",
+			"hash1",
+			"pos",
+			"mycmp",
+			"59221",
+			"is_p",
+			"is_prime(",
+			"row_count",
+			"100000",
+			"prime2",
 			"5",
 			"4",
 			"3",
@@ -381,6 +390,13 @@
 		"regex": false,
 		"replace_history":
 		[
+			"hash_next_row",
+			"hash_next_col",
+			"my_cmp",
+			"is_prime",
+			"is_prime[",
+			"maxp",
+			"prime3",
 			"4",
 			"3",
 			"2",
@@ -479,19 +495,19 @@
 			[
 				{
 					"buffer": 0,
-					"file": "Chapter6/prime3/prime3.cpp",
-					"semi_transient": false,
+					"file": "Chapter6/fence8/fence8.cpp",
+					"semi_transient": true,
 					"settings":
 					{
-						"buffer_size": 2061,
+						"buffer_size": 1478,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1795,
-								1795
+								707,
+								707
 							]
 						],
 						"settings":
@@ -500,7 +516,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 1564.0,
+						"translation.y": 741.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
@@ -594,7 +610,7 @@
 	"settings":
 	{
 	},
-	"show_minimap": false,
+	"show_minimap": true,
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
