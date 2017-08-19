@@ -60,10 +60,28 @@
 	"buffers":
 	[
 		{
-			"file": "Chapter6/fence8/fence8.cpp",
+			"file": "Chapter6/clocks/clocks.cpp",
 			"settings":
 			{
-				"buffer_size": 1478,
+				"buffer_size": 1624,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "Chapter6/clocks/clocks.in",
+			"settings":
+			{
+				"buffer_size": 18,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "Chapter6/clocks/clocks.out",
+			"settings":
+			{
+				"buffer_size": 8,
 				"line_ending": "Unix"
 			}
 		}
@@ -118,14 +136,24 @@
 	[
 		"/Users/apple/USACO",
 		"/Users/apple/USACO/Chapter6",
-		"/Users/apple/USACO/Chapter6/fence8"
+		"/Users/apple/USACO/Chapter6/clocks"
 	],
 	"file_history":
 	[
+		"/Users/apple/USACO/Chapter6/latin/latin.out",
+		"/Users/apple/USACO/Chapter6/latin/latin.in",
+		"/Users/apple/USACO/Chapter6/latin/latin.cpp",
+		"/Users/apple/USACO/Chapter6/latin/backup.cpp",
+		"/Users/apple/USACO/Chapter6/fence3/fence3.cpp",
+		"/Users/apple/USACO/Chapter6/fence3/fence3.out",
+		"/Users/apple/USACO/Chapter6/fence3/fence3.in",
 		"/Users/apple/USACO/Chapter6/prime3/prime3.out",
-		"/Users/apple/USACO/Chapter6/prime3/prime3.in",
-		"/Users/apple/Desktop/untitled.cpp",
+		"/Users/apple/USACO/Chapter6/prime3/prime3_2.out",
+		"/Users/apple/USACO/Chapter6/prime3/previous_edition.cpp",
 		"/Users/apple/USACO/Chapter6/prime3/prime3.cpp",
+		"/Users/apple/USACO/Chapter6/prime3/backup.cpp",
+		"/Users/apple/Desktop/untitled.cpp",
+		"/Users/apple/USACO/Chapter6/prime3/prime3.in",
 		"/Users/apple/USACO/Chapter6/wissqu/wissqu.out",
 		"/Users/apple/USACO/Chapter6/wissqu/wissqu.cpp",
 		"/Users/apple/USACO/Chapter6/fence8/fence8.cpp",
@@ -239,17 +267,7 @@
 		"/Users/apple/USACO/Chapter4/Section4.2/stall4/stall4.out",
 		"/Users/apple/USACO/Chapter4/Section4.1/nuggets/nuggets.cpp",
 		"/Users/apple/USACO/Chapter4/Section4.1/fence6/fence6.cpp",
-		"/Users/apple/USACO/Chapter4/Section4.2/stall4/stall4.in",
-		"/Users/apple/Desktop/USACO(Training)_backup_of_first_time_solutions/Section4.1/fence6/fence6.c",
-		"/Users/apple/USACO/Chapter4/Section4.1/nuggets/nuggets.in",
-		"/Users/apple/USACO/Chapter4/Section4.1/nuggets/nuggets.out",
-		"/Users/apple/Desktop/USACO(Training)_backup_of_first_time_solutions/Section4.1/nuggets/nuggets.c",
-		"/Users/apple/USACO/Chapter3/Section3.4/fence9/fence9.cpp",
-		"/Users/apple/USACO/Chapter3/Section3.4/fence9/fence9.out",
-		"/Users/apple/USACO/Chapter3/Section3.4/rockers/rockers.out",
-		"/Users/apple/USACO/Chapter3/Section3.4/rockers/rockers.cpp",
-		"/Users/apple/USACO/Chapter3/Section3.4/rockers/rockers.in",
-		"/Users/apple/USACO/Chapter3/Section3.4/heritage/heritage.cpp"
+		"/Users/apple/USACO/Chapter4/Section4.2/stall4/stall4.in"
 	],
 	"find":
 	{
@@ -268,6 +286,22 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"count",
+			"vans",
+			"fence3",
+			"by",
+			"bx",
+			"fence8",
+			"/*",
+			"hash_last_col",
+			"hash_last_row",
+			"is_prime",
+			"flag",
+			"diag[1]",
+			"diag[0]",
+			"232",
+			"yy",
+			"stop",
 			"hash2",
 			"hash1",
 			"pos",
@@ -379,10 +413,7 @@
 			"arrays",
 			"toList",
 			"'",
-			"arr",
-			"abs",
-			"TRUE",
-			"1"
+			"arr"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -390,6 +421,18 @@
 		"regex": false,
 		"replace_history":
 		[
+			"num",
+			"clocks",
+			"latin",
+			"besty",
+			"bestx",
+			"fence3",
+			"hash3",
+			"hash2",
+			"not_prime",
+			"diag2",
+			"diag1",
+			"full",
 			"hash_next_row",
 			"hash_next_col",
 			"my_cmp",
@@ -490,24 +533,24 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 2,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "Chapter6/fence8/fence8.cpp",
-					"semi_transient": true,
+					"file": "Chapter6/clocks/clocks.cpp",
+					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1478,
+						"buffer_size": 1624,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								707,
-								707
+								745,
+								745
 							]
 						],
 						"settings":
@@ -516,7 +559,63 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 741.0,
+						"translation.y": 868.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "Chapter6/clocks/clocks.in",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 18,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								17,
+								17
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "Chapter6/clocks/clocks.out",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 8,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								8,
+								8
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
@@ -610,7 +709,7 @@
 	"settings":
 	{
 	},
-	"show_minimap": true,
+	"show_minimap": false,
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
