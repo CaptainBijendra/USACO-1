@@ -10,51 +10,52 @@ LANG: C++
 using namespace std;
 
 bool moves[9][9];
-int total = 0,num[9];
-int status[9],backup[9];
+int num[9],status[9];
 
-int ans = 28, best[9];
+int ans = 30, best[9];
 
-void dfs(int cur,int sum)
+void dfs(int cur,int sum,int total)
 {
 	if(sum==0)
 	{
 		if(total<ans)
 		{
 			ans=total;
-			for(int i=0;i<9;i++)
-				best[i]=num[i];
+			memcpy(best,num,sizeof(num));
 		}
 		return;
 	}
 	if(cur>8) return;
 
+	int backup[9];
+	memcpy(backup,status,sizeof(status));
+
 	int tmp,sum2;
 	for(int i=3;i>=0;i--)
-	if(total+i<=ans)
-	{
-		num[cur]=i;
-		total+=i;
-
-		sum2=sum;
-		if(i>0)
+		if(total+i<=ans)
 		{
-			memcpy(backup,status,sizeof(status));
-			for(int j=0;j<9;j++)
-				if(moves[cur][j])
-				{
-					tmp=(status[j]+i)%4;
-					sum2=sum2-status[j]+tmp;
-					status[j]=tmp;
-				}
-		}
-		
-		dfs(cur+1,sum2);
+			num[cur]=i;
+			total+=i;
 
-		total-=i;
-		if(i>0)
+			sum2=sum;
 			memcpy(status,backup,sizeof(status));
-	}
+			if(i>0)
+			{
+				for(int j=0;j<9;j++)
+					if(moves[cur][j])
+					{
+						tmp=(status[j]+i)%4;
+						sum2=sum2-status[j]+tmp;
+						status[j]=tmp;
+					}
+			}
+			
+			dfs(cur+1,sum2,total);
+
+			total-=i;
+		}
+	
+	memcpy(status,backup,sizeof(status));
 }
 
 int main()
@@ -75,13 +76,13 @@ int main()
 	moves[1][0]=moves[1][1]=moves[1][2]=true;
 	moves[2][1]=moves[2][2]=moves[2][4]=moves[2][5]=true;
 	moves[3][0]=moves[3][3]=moves[3][6]=true;
-	moves[4][1]=moves[4][3]=moves[2][4]=moves[4][5]=moves[4][7]=true;
+	moves[4][1]=moves[4][3]=moves[4][4]=moves[4][5]=moves[4][7]=true;
 	moves[5][2]=moves[5][5]=moves[5][8]=true;
 	moves[6][3]=moves[6][4]=moves[6][6]=moves[6][7]=true;
 	moves[7][6]=moves[7][7]=moves[7][8]=true;
 	moves[8][4]=moves[8][5]=moves[8][7]=moves[8][8]=true;
 
-	dfs(1,tmp2);
+	dfs(0,tmp2,0);
 
 	bool fisrt=true;
 	for(int i=0;i<9;i++)

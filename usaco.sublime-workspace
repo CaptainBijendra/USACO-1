@@ -60,28 +60,19 @@
 	"buffers":
 	[
 		{
-			"file": "Chapter6/clocks/clocks.cpp",
+			"file": "Chapter6/checker/checker.cpp",
 			"settings":
 			{
-				"buffer_size": 1624,
+				"buffer_size": 933,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "Chapter6/clocks/clocks.in",
+			"file": "Chapter6/checker/checker.out",
 			"settings":
 			{
-				"buffer_size": 18,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "Chapter6/clocks/clocks.out",
-			"settings":
-			{
-				"buffer_size": 8,
+				"buffer_size": 38,
 				"line_ending": "Unix"
 			}
 		}
@@ -135,11 +126,19 @@
 	"expanded_folders":
 	[
 		"/Users/apple/USACO",
-		"/Users/apple/USACO/Chapter6",
-		"/Users/apple/USACO/Chapter6/clocks"
+		"/Users/apple/USACO/Chapter6"
 	],
 	"file_history":
 	[
+		"/Users/apple/USACO/Chapter6/fence4/fence4.cpp",
+		"/Users/apple/USACO/Chapter6/fence4/fence4.out",
+		"/Users/apple/USACO/Chapter6/fence4/fence4.in",
+		"/Users/apple/USACO/Chapter6/betsy/betsy.cpp",
+		"/Users/apple/USACO/Chapter6/betsy/betsy.in",
+		"/Users/apple/USACO/Chapter6/betsy/betsy.out",
+		"/Users/apple/USACO/Chapter6/clocks/clocks.out",
+		"/Users/apple/USACO/Chapter6/clocks/clocks.in",
+		"/Users/apple/USACO/Chapter6/clocks/clocks.cpp",
 		"/Users/apple/USACO/Chapter6/latin/latin.out",
 		"/Users/apple/USACO/Chapter6/latin/latin.in",
 		"/Users/apple/USACO/Chapter6/latin/latin.cpp",
@@ -258,16 +257,7 @@
 		"/Users/apple/USACO/Chapter4/Section4.2/job/job.in",
 		"/Users/apple/USACO/Chapter4/Section4.2/job/job.out",
 		"/Users/apple/USACO/Chapter4/Section4.2/ditch/ditch.cpp",
-		"/Users/apple/USACO/Chapter4/Section4.2/ditch/ditch.out",
-		"/Users/apple/USACO/Chapter4/Section4.2/ditch/ditch.in",
-		"/Users/apple/USACO/Chapter4/Section4.1/fence6/fence6_2.cpp",
-		"/Users/apple/USACO/Chapter4/Section4.1/fence6/fence6.out",
-		"/Users/apple/USACO/Chapter4/Section4.1/fence6/fence6.in",
-		"/Users/apple/USACO/Chapter4/Section4.2/stall4/stall4.cpp",
-		"/Users/apple/USACO/Chapter4/Section4.2/stall4/stall4.out",
-		"/Users/apple/USACO/Chapter4/Section4.1/nuggets/nuggets.cpp",
-		"/Users/apple/USACO/Chapter4/Section4.1/fence6/fence6.cpp",
-		"/Users/apple/USACO/Chapter4/Section4.2/stall4/stall4.in"
+		"/Users/apple/USACO/Chapter4/Section4.2/ditch/ditch.out"
 	],
 	"find":
 	{
@@ -286,6 +276,12 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"betsy",
+			"vis",
+			"betsy",
+			"map",
+			"[\n",
+			"clocks",
 			"count",
 			"vans",
 			"fence3",
@@ -407,13 +403,7 @@
 			"index",
 			"count",
 			"pair",
-			"right",
-			"left",
-			"print",
-			"arrays",
-			"toList",
-			"'",
-			"arr"
+			"right"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -421,6 +411,10 @@
 		"regex": false,
 		"replace_history":
 		[
+			"checker",
+			"fence4",
+			"g",
+			"betsy",
 			"num",
 			"clocks",
 			"latin",
@@ -533,24 +527,24 @@
 	"groups":
 	[
 		{
-			"selected": 2,
+			"selected": 0,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "Chapter6/clocks/clocks.cpp",
+					"file": "Chapter6/checker/checker.cpp",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1624,
+						"buffer_size": 933,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								745,
-								745
+								733,
+								733
 							]
 						],
 						"settings":
@@ -559,27 +553,27 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 868.0,
+						"translation.y": 1030.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 0,
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "Chapter6/clocks/clocks.in",
+					"file": "Chapter6/checker/checker.out",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 18,
+						"buffer_size": 38,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								17,
-								17
+								0,
+								0
 							]
 						],
 						"settings":
@@ -590,35 +584,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "Chapter6/clocks/clocks.out",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 8,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								8,
-								8
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Text/Plain text.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
+					"stack_index": 1,
 					"type": "text"
 				}
 			]
@@ -713,7 +679,7 @@
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 184.0,
+	"side_bar_width": 175.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
