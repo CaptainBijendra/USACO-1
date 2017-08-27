@@ -59,23 +59,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "Chapter6/checker/checker.cpp",
-			"settings":
-			{
-				"buffer_size": 933,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "Chapter6/checker/checker.out",
-			"settings":
-			{
-				"buffer_size": 38,
-				"line_ending": "Unix"
-			}
-		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -126,10 +109,12 @@
 	"expanded_folders":
 	[
 		"/Users/apple/USACO",
-		"/Users/apple/USACO/Chapter6"
+		"/Users/apple/USACO/Chapter4/Section4.3/buylow"
 	],
 	"file_history":
 	[
+		"/Users/apple/USACO/Chapter6/checker/checker.cpp",
+		"/Users/apple/USACO/Chapter6/checker/checker.out",
 		"/Users/apple/USACO/Chapter6/fence4/fence4.cpp",
 		"/Users/apple/USACO/Chapter6/fence4/fence4.out",
 		"/Users/apple/USACO/Chapter6/fence4/fence4.in",
@@ -255,9 +240,7 @@
 		"/Users/apple/USACO/Chapter4/Section4.3/buylow/buylow.out",
 		"/Users/apple/USACO/Chapter4/Section4.2/job/job.cpp",
 		"/Users/apple/USACO/Chapter4/Section4.2/job/job.in",
-		"/Users/apple/USACO/Chapter4/Section4.2/job/job.out",
-		"/Users/apple/USACO/Chapter4/Section4.2/ditch/ditch.cpp",
-		"/Users/apple/USACO/Chapter4/Section4.2/ditch/ditch.out"
+		"/Users/apple/USACO/Chapter4/Section4.2/job/job.out"
 	],
 	"find":
 	{
@@ -527,66 +510,8 @@
 	"groups":
 	[
 		{
-			"selected": 0,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "Chapter6/checker/checker.cpp",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 933,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								733,
-								733
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/C++/C++.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 1030.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "Chapter6/checker/checker.out",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 38,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Text/Plain text.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				}
 			]
 		}
 	],
